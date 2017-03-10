@@ -1,0 +1,24 @@
+.shopping-list-scan-qrcode-view {
+  display: none;
+  position: fixed;
+  top: $header-height;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  .content {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: -$header-height;
+    .text{
+      margin-top: 2rem;
+      line-height: 2rem;
+      font-size: pxToRem(28);
+      color: #999999;
+    }
+  }
+}

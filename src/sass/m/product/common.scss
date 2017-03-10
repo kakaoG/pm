@@ -1,0 +1,248 @@
+@charset "utf-8";
+.pop {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -25px;
+  margin-left: -25px;
+  width: 50px;
+  height: 50px;
+  background: url("../images/loading.png") no-repeat 0 0;
+  -webkit-animation: bounce 1s infinite linear;
+  -moz-animation: bounce 1s infinite linear;
+  -o-animation: bounce 1s infinite linear;
+  animation: bounce 1s infinite linear;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes bounce {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-o-keyframes bounce {
+  0% {
+    -o-transform: rotate(0deg);
+  }
+  100% {
+    -o-transform: rotate(360deg);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.clearfix:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+a, input, button {
+  outline: none;
+}
+
+::-moz-focus-inner {
+  border: 0px;
+}
+
+.disabled {
+  opacity: 0.7;
+}
+
+.undisabled {
+  opacity: 1;
+}
+
+.middle {
+  margin: 0 auto;
+}
+
+.contain {
+  width: 100%;
+  height: 100%;
+}
+
+.rDialog {
+  position: fixed;
+  _position: absolute;
+  max-width: 85%;
+}
+
+.rDialog-wrap {
+  position: relative;
+  background: #fff;
+  opacity: 1;
+  background-clip: padding-box;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  padding: 1em 1em;
+}
+
+.rDialog-wrap-alert {
+  color: #fff;
+  position: relative;
+  background: rgba(0, 0, 0, 0.7);
+  background-clip: padding-box;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  box-shadow: 1px 1px 1px #000;
+  padding: 0.5em;
+}
+
+.rDialog-header-load {
+  text-align: center;
+  background: url("../images/xubox_loading0.gif");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100%;
+  width: 50px;
+  height: 23px;
+  margin: auto;
+}
+
+.rDialog-header-load2 {
+  text-align: center;
+  background: url("../images/xubox_loading2.gif");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100%;
+  width: 32px;
+  height: 32px;
+  margin: auto;
+}
+
+.rDialog-header-alert {
+  background-position: 0 -53px;
+}
+
+.rDialog-header-ok {
+  background-position: 0 0;
+}
+
+.rDialog-footer {
+  padding-left: 15px;
+  text-align: center;
+}
+
+.rDialog-footer a {
+  display: inline-block;
+  margin: 0 15px 15px 0;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 15px;
+  font-size: 0.8em;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.rDialog-ok, .rDialog-ok:hover {
+  color: #000;
+  border: 1px solid #e1e1e1;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#f1f1f1));
+}
+
+.rDialog-cancel, .rDialog-cancel:hover {
+  border: 1px solid #e1e1e1;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#f1f1f1));
+  color: #000;
+}
+
+.rDialog-mask {
+  position: fixed;
+  _position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  filter: alpha(opacity=30);
+  opacity: .3;
+}
+
+.rDialog-white {
+  position: fixed;
+  _position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  filter: alpha(opacity=30);
+}
+
+.rDialog-wrapundefined {
+  background: #fff;
+  color: #1d1d1d;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.rDialog-content {
+  text-align: center;
+  border-bottom: 1px solid #E8E8E8;
+  margin-bottom: 10px;
+  padding: 1em;
+  font-size: 1em;
+  overflow: hidden;
+  color: #1d1d1d;
+}
+
+.limit-line4{
+  word-break:break-all;
+  display:-webkit-box;
+  -webkit-line-clamp:4;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+}

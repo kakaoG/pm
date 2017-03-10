@@ -1,0 +1,39 @@
+.input-box,
+.password-box{
+    position: relative;
+    line-height: inherit;
+    height: inherit;
+    width: inherit;
+}
+.input-box {
+    input {
+        font-size: pxToRem(28);
+        width: 100%;
+        height: pxToRem(76);
+        border: pxToRem(1) solid #e1e1e1;
+    }
+    input::-webkit-input-placeholder{
+        font-size: pxToRem(28);
+        color: #999;
+    }
+}
+.input-box .label-warn,
+.input-box .label-del{
+    position: absolute;
+    right: pxToRem(24);
+    top: 50%;
+    transform: translateY(-50%);
+}
+.input-box .label-warn {
+    font-size: 1.96rem;
+    display: none;
+    color: #f00;
+    position: absolute;
+    right: 100px;
+}
+.input-box .label-del {
+    font-size: 1.96rem;
+    position: absolute;
+    color: #E1E1E1;
+    display: none;
+}

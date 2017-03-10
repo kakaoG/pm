@@ -1,0 +1,12 @@
+.shop-waite-view {
+  margin-top: 40%;
+  text-align: center;
+  img {
+    width: pxToRem(420);
+  }
+  p {
+    padding-top: pxToRem(48);
+    font-size: pxToRem(32);
+    color: #999;
+  }
+}

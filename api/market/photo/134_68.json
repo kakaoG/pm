@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "message": "响应成功",
+  "code": 200,
+  "dataMap": {
+    "data": {
+      "mPhotoId": 30,
+      "buildingFloorId": 68,
+      "picUrl": "http://img2.mklimg.com/g2/M00/00/25/rBBrClfgzbaAJ6L2AAC-0uC6NG051.JPEG"
+    }
+  }
+}

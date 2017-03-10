@@ -1,0 +1,27 @@
+.shopping-list-album {
+  .tabs {
+    text-align: center;
+    border-bottom: 2px solid #f5f5f5;
+    .tab-item-view {
+      width: 20%;
+      text-align: center;
+      margin-right: 10%;
+    }
+  }
+  .tab-content {
+    padding: pxToRem(20);
+    font-size: 0;
+    .list-view {
+      .shop-item-album-view {
+        display: inline-block;
+        text-align: center;
+        width: 50%;
+        border: pxToRem(20) solid transparent;
+        box-sizing: border-box;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

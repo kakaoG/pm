@@ -1,0 +1,688 @@
+.product-base-info {
+  font-size: 100px;
+}
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.m-banner {
+  min-height: 3.2em;
+  width: 100%;
+  background-color: #fff;
+}
+
+.banner-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-top: 100%;
+}
+
+/* line 4, ../sass/_ui-placeholder.scss */
+.line-box i::before, select, .floor-box video, .good-box .bg-pic img, .sign, .detail-img, .user-mes .bg-pic img, .comment-star i, .slide-good img, .bottom-fix button {
+  display: block;
+}
+
+/* line 9, ../sass/_ui-placeholder.scss */
+.top-nav, .floor-box, .service-box-main, .comment-box-main .tip-box {
+  clear: both;
+  overflow: hidden;
+}
+.service-box-main{
+  margin-bottom: .25em;
+}
+/* line 15, ../sass/_ui-placeholder.scss */
+.service-con p, .user-mes-detail-t h3 {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+  box-orient: vertical;
+}
+
+/* line 38, ../sass/_ui-placeholder.scss */
+.top-nav, .comment-box-main .tip-box p {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+/* line 48, ../sass/_ui-placeholder.scss */
+.floor-box, .price-box {
+  /*background-color: #fff;*/
+}
+
+/* line 53, ../sass/_ui-placeholder.scss */
+.top-nav, .top-nav-r, .price-box, .comment-star, .user-mes-detail-b, .slide-box, .bottom-fix {
+  display: -webkit-box;
+}
+
+/* line 57, ../sass/_ui-placeholder.scss */
+.title-box, .select-box, .good-box, .good-tit, .line-box, .service-con, .user-mes, .user-mes-detail-t {
+  display: -webkit-box;
+  -webkit-box-align: center;
+}
+
+/* line 67, ../sass/_ui-placeholder.scss */
+.line-box i, .more-con {
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+}
+
+/* line 73, ../sass/_ui-placeholder.scss */
+.title-box .title, .top-nav-l, .price-box-l, .service-con p, .user-mes-detail, .bottom-fix .btn-blue {
+  -webkit-box-flex: 1;
+}
+
+/* line 5, ../sass/_ui-tab.scss */
+.ui-tab {
+  height: 0.46em;
+  border-bottom: 2px solid #f5f5f5;
+  display: -webkit-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #444;
+  background-color: #fff;
+  position: relative;
+}
+/* line 12, ../sass/_ui-tab.scss */
+.ui-tab div {
+  height: 100%;
+  min-width: 0.6em;
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+}
+/* line 19, ../sass/_ui-tab.scss */
+.ui-tab div.current p {
+  color: #439df7;
+  /*border-bottom: 2px solid #439df7;*/
+}
+/* line 24, ../sass/_ui-tab.scss */
+.ui-tab div p {
+  height: 100%;
+  display: -webkit-box;
+  -webkit-box-align: center;
+}
+.slider {
+  position: absolute;
+  background: #439df7;
+  width: 20%;
+  height: 0.02em;
+  left: 0%;
+  transition: all 0.5s;
+}
+
+/* line 11, ../sass/store.scss */
+::-webkit-scrollbar {
+  width: 0;
+  opacity: 0;
+}
+
+/* line 15, ../sass/store.scss */
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 0, 0);
+  opacity: 0;
+}
+
+/* line 19, ../sass/store.scss */
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 0, 0);
+  opacity: 0;
+}
+
+/* line 23, ../sass/store.scss */
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255, 255, 0, 0);
+  opacity: 0;
+}
+
+/* line 28, ../sass/store.scss */
+.return-icon, .collect-icon, .share-icon, .shop-icon {
+  padding: 0.1em 0.05em;
+}
+/* line 30, ../sass/store.scss */
+.return-icon::before, .collect-icon::before, .share-icon::before, .shop-icon::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url("../../images/store/top-nav-sprite.png") no-repeat;
+  background-size: 30px auto;
+}
+
+/* line 42, ../sass/store.scss */
+.line-box i::before {
+  content: "";
+  background: url("../../images/store/shop-goods-sprite.png") no-repeat;
+  background-size: 17px auto;
+}
+
+
+/* line 74, ../sass/store.scss */
+.shop-goods-page {
+  padding-bottom: 0.5em;
+  /*font-size: 0.16em;*/
+  line-height: 1;
+  color: #666;
+  font-size: 14px;
+  position: relative;
+}
+
+/* line 81, ../sass/store.scss */
+.mt15 {
+  margin-top: 0.15em;
+}
+
+/* line 85, ../sass/store.scss */
+.title-box {
+  margin: 0 -0.1em;
+  padding: 0 0.1em;
+  border-bottom: 2px solid #f5f5f5;
+}
+
+/* line 95, ../sass/store.scss */
+h3.title {
+  line-height: 0.52em;
+}
+
+/* line 99, ../sass/store.scss */
+.title-con {
+  line-height: 1.5;
+}
+
+/* line 103, ../sass/store.scss */
+.select-box {
+  position: relative;
+  height: 0.4em;
+}
+/* line 107, ../sass/store.scss */
+.select-box select {
+  padding-right: 0.2em;
+}
+/* line 110, ../sass/store.scss */
+.select-box .arrow-solid {
+  position: absolute;
+  top: 50%;
+  right: 0.05em;
+  margin-top: -0.03em;
+  pointer-events: none;
+}
+
+/* line 119, ../sass/store.scss */
+.arrow-solid {
+  width: 0;
+  height: 0;
+  border-top: 0.06em solid #666;
+  border-left: 0.04em solid transparent;
+  border-right: 0.04em solid transparent;
+}
+
+/* line 127, ../sass/store.scss */
+.top-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  padding: 0 0.05em;
+}
+
+/* line 152, ../sass/store.scss */
+.collect-icon::before {
+  background-position: 0 -35px;
+}
+
+/* line 159, ../sass/store.scss */
+.share-icon::before {
+  background-position: 0 -70px;
+}
+
+/* line 166, ../sass/store.scss */
+.shop-icon::before {
+  background-position: 0 -105px;
+}
+
+/* line 171, ../sass/store.scss */
+.floor-box {
+  margin-bottom: 0.08em;
+  padding: 0 0.1em 0.2em;
+  background-color: #fff;
+}
+/* line 176, ../sass/store.scss */
+.floor-box video {
+  width: 100%;
+  height: auto;
+}
+/*.goodInfo{*/
+/*height: 5em;*/
+/*overflow: scroll;*/
+/*}*/
+
+/* line 183, ../sass/store.scss */
+.price-box {
+  margin-top: 0.15em;
+  -webkit-box-align: end;
+}
+/* line 188, ../sass/store.scss */
+.price-box .stock {
+  font-size: 0.12em;
+  color: #999;
+}
+
+/* line 194, ../sass/store.scss */
+.price-box-l {
+  color: #444;
+}
+/* line 197, ../sass/store.scss */
+.price-box-l .mark {
+  font-size: 0.18em;
+}
+/* line 200, ../sass/store.scss */
+.price-box-l .price {
+  margin: 0 0.1em 0 0.03em;
+  font-size: 0.22em;
+}
+/* line 204, ../sass/store.scss */
+.price-box-l del {
+  font-size: 0.14em;
+  color: #999;
+  vertical-align: 1px;
+}
+
+/* line 211, ../sass/store.scss */
+.good-box {
+  margin-top: 0.1em;
+}
+/* line 214, ../sass/store.scss */
+.good-box .bg-pic {
+  width: 0.9em;
+  height: 0.9em;
+  margin-right: 0.15em;
+}
+/* line 218, ../sass/store.scss */
+.good-box .bg-pic img {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 232, ../sass/store.scss */
+.good-tit h3 {
+  margin-right: 0.2em;
+}
+
+/* line 237, ../sass/store.scss */
+.sign {
+  padding: 0.07em;
+  margin-right: 0.1em;
+  border: 1px solid #f5f5f5;
+  border-radius: 3px;
+  font-size: 0.12em;
+}
+
+/* line 246, ../sass/store.scss */
+.good-detail-con {
+  margin-top: 0.12em;
+  font-size: 0.14em;
+}
+
+/* line 251, ../sass/store.scss */
+.ui-tab {
+  margin: 0 -0.1em;
+}
+
+/* line 255, ../sass/store.scss */
+.deliver-area {
+  margin: 0.2em -0.1em 0;
+  padding: 0.09em 0.2em;
+  background-color: #f5f5f5;
+  font-size: 0.14em;
+}
+
+/* line 262, ../sass/store.scss */
+.detail-img {
+  width: 100%;
+  height: auto;
+  margin-top: 0.2em;
+}
+
+/* line 270, ../sass/store.scss */
+.img-text-box,.parameter-box,.service-box,.comment-box {
+  width: auto;
+  padding: 0 10px 0 10px;
+  background-color: #fff;
+  margin-top: 0.1em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+/* line 275, ../sass/store.scss */
+/* line 278, ../sass/store.scss */
+.line-box {
+  margin-top: 0.25em;
+}
+/* line 280, ../sass/store.scss */
+.line-box:first-of-type {
+  margin-top: 0;
+}
+/* line 284, ../sass/store.scss */
+.parameter-tit {
+  min-width: 0.96em;
+  color: #444;
+}
+
+/* line 292, ../sass/store.scss */
+.line-box i {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.1em;
+}
+/* line 297, ../sass/store.scss */
+.line-box i::before {
+  content: "";
+  display: block;
+}
+/* line 303, ../sass/store.scss */
+.line-box .pinpai::before {
+  width: 15px;
+  height: 17px;
+}
+/* line 309, ../sass/store.scss */
+.line-box .chandi::before {
+  width: 15px;
+  height: 16px;
+  background-position: 0 -22px;
+}
+/* line 317, ../sass/store.scss */
+.line-box .dengji::before {
+  width: 12px;
+  height: 15px;
+  background-position: 0 -43px;
+}
+/* line 325, ../sass/store.scss */
+.line-box .jijia::before {
+  width: 15px;
+  height: 16px;
+  background-position: 0 -63px;
+}
+/* line 332, ../sass/store.scss */
+.line-box .fucai::before {
+  width: 17px;
+  height: 17px;
+  background-position: 0 -84px;
+}
+/* line 338, ../sass/store.scss */
+.line-box .xinghao::before {
+  width: 12px;
+  height: 15px;
+  background-position: 0 -106px;
+}
+/* line 344, ../sass/store.scss */
+.line-box .shimian::before {
+  width: 16px;
+  height: 15px;
+  background-position: 0 -126px;
+}
+/* line 350, ../sass/store.scss */
+.line-box .jicai::before {
+  width: 15px;
+  height: 15px;
+  background-position: 0 -146px;
+}
+
+/* line 357, ../sass/store.scss */
+.service-box-main {
+  padding: 0 0.12em 0.18em;
+}
+
+/* line 362, ../sass/store.scss */
+.service-con {
+  float: left;
+  width: 33%;
+  min-height: 0.2em;
+  margin-top: 0.18em;
+  font-size: 0.14em;
+}
+/* line 369, ../sass/store.scss */
+.service-con::before {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 14px;
+  margin-right: 0.06em;
+  /*background: url("../../images/store/green.png") no-repeat;*/
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  /*background-size: 17px auto;*/
+  /*background-position: 0 -166px;*/
+}
+/*service icon*/
+.green:before{
+  background: url('../../images/store/green.png');
+}
+.triple:before{
+  background: url('../../images/store/triple.png');
+}
+.compensate:before{
+  background: url('../../images/store/compensate.png');
+}
+.returned:before{
+  background: url('../../images/store/returned.png');
+}
+.quality:before{
+  background: url('../../images/store/quality.png');
+}
+.staging:before{
+  background: url('../../images/store/staging.png');
+}
+.delivery:before{
+  background: url('../../images/store/delivery.png');
+}
+.design:before{
+  background: url('../../images/store/design.png');
+}
+.consult:before{
+  background: url('../../images/store/consult.png');
+}
+/* line 379, ../sass/store.scss */
+.service-con p {
+  padding-right: 0.1em;
+  line-height: 1.3;
+  text-align: center;
+}
+
+/* line 387, ../sass/store.scss */
+.more-con {
+  height: .4em;
+  line-height: .4em;
+  border-top: 2px solid #f5f5f5;
+  color: #439df7;
+  font-size: 0.13em;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* line 399, ../sass/store.scss */
+.comment-box-main {
+  padding: 0 0.12em 0.2em;
+  margin-bottom: .25em;
+}
+/* line 401, ../sass/store.scss */
+.comment-box-main .tip-box {
+  margin-top: 0.1em;
+}
+/* line 404, ../sass/store.scss */
+.comment-box-main .tip-box p {
+  float: left;
+  min-width: 30%;
+  padding: 0 0.1em;
+  margin: 0.1em 0.1em 0 0;
+  background-color: #f5f5f5;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 0.24em;
+  font-size: 0.12em;
+}
+
+/* line 419, ../sass/store.scss */
+.comment-con {
+  margin-top: 0.2em;
+}
+
+/* line 425, ../sass/store.scss */
+.user-mes .bg-pic {
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  margin-right: 0.15em;
+  border-radius: 40px;
+}
+/* line 431, ../sass/store.scss */
+.user-mes .bg-pic img {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 443, ../sass/store.scss */
+.user-mes-detail-t {
+  font-size: 0.12em;
+}
+/* line 446, ../sass/store.scss */
+.user-mes-detail-t h3 {
+  max-width: 1em;
+  font-size: 0.14em;
+}
+
+/* line 453, ../sass/store.scss */
+.comment-star {
+  margin: 0 0.1em;
+}
+/* line 456, ../sass/store.scss */
+.comment-star i {
+  width: 9px;
+  height: 9px;
+  margin-right: 0.05em;
+  background: url("../../images/store/shop-goods-sprite.png") no-repeat;
+  background-size: 17px auto;
+  background-position: 0 -185px;
+}
+/* line 464, ../sass/store.scss */
+.comment-star i:last-of-type {
+  margin-right: 0;
+}
+
+/* line 470, ../sass/store.scss */
+.user-mes-detail-b {
+  margin-top: 0.1em;
+  color: #999;
+  font-size: 0.12em;
+}
+/* line 475, ../sass/store.scss */
+.user-mes-detail-b p {
+  margin-right: 0.04em;
+}
+
+/* line 480, ../sass/store.scss */
+.comment-font {
+  margin-top: 0.1em;
+  font-size: 0.14em;
+  color: #444;
+  line-height: 1.4;
+}
+
+/* line 487, ../sass/store.scss */
+.slide-box {
+  overflow-x: scroll;
+  margin-bottom: -0.1em;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* line 494, ../sass/store.scss */
+.slide-good {
+  position: relative;
+  width: 0.9em;
+  height: 0.9em;
+  margin-right: 0.1em;
+}
+/* line 499, ../sass/store.scss */
+.slide-good img {
+  width: 100%;
+  height: 100%;
+}
+/* line 504, ../sass/store.scss */
+.slide-good .slide-good-price {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  line-height: 0.2em;
+  color: #fff;
+  font-size: 0.14em;
+  text-align: center;
+}
+
+/* line 517, ../sass/store.scss */
+.bottom-fix {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 0.5em;
+}
+/* line 524, ../sass/store.scss */
+.bottom-fix button {
+  height: 100%;
+  border: none;
+  color: #fff;
+}
+/* line 530, ../sass/store.scss */
+.bottom-fix .btn-blue {
+  background-color: #439df7;
+}
+/* line 534, ../sass/store.scss */
+.bottom-fix .btn-black {
+  min-width: 1.2em;
+  background-color: #444;
+}
+.box-title{
+  height: .46em;
+  line-height: .46em;
+  font-size: 14px;
+  padding-left: .1em;
+}
+/*
+*fixtop
+**/
+.fix{
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+.slider_fix{
+  position: fixed;
+  top:44px;
+  z-index: 99;
+}
+.hidden{
+  display: none !important;
+}
+.space{
+  width: 100%;
+  visibility: hidden;
+}

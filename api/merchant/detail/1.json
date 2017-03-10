@@ -1,0 +1,220 @@
+{
+  "ok": true,
+  "message": "响应成功",
+  "code": 200,
+  "dataMap": {
+    "totalScore": "1.67",
+    "couponList": "这是优惠券啊",
+    "page": 1,
+    "reviewList": [
+      {
+        "id": 36,
+        "createDate": "2016-08-22 14:51:19",
+        "objectType": "merchant",
+        "objectId": "1",
+        "objectName": null,
+        "score": 3.35,
+        "userObject": "C",
+        "userId": "1",
+        "nickName": "187****6065",
+        "showData": true,
+        "comment": "测试",
+        "picture": null,
+        "likedNumber": 0,
+        "extendColumnOne": "http://www.baidu.com",
+        "extendColumnTwo": null,
+        "extendColumnThree": null,
+        "extendColumnFour": null,
+        "extendColumnFive": null,
+        "auth": false,
+        "redstarReviewDetails": [
+          {
+            "id": 64,
+            "createDate": "2016-08-22 14:51:19",
+            "labelCode": "label_m_env",
+            "score": 3,
+            "reviewId": 36
+          },
+          {
+            "id": 65,
+            "createDate": "2016-08-22 14:51:19",
+            "labelCode": "label_m_product",
+            "score": 2,
+            "reviewId": 36
+          },
+          {
+            "id": 66,
+            "createDate": "2016-08-22 14:51:19",
+            "labelCode": "label_m_service",
+            "score": 5,
+            "reviewId": 36
+          }
+        ],
+        "redstarReviewReplies": [],
+        "userLiked": false
+      }
+    ],
+    "productList": [
+      {
+        "psgId": 4,
+        "productGoodsId": 8,
+        "productId": 1,
+        "pdtSku": "444444",
+        "pdtName": "",
+        "brandId": 0,
+        "shopId": 1,
+        "brandName": "",
+        "salePrice": 12,
+        "marketPrice": 0,
+        "imgs": [
+          "图片URL1"
+        ]
+      },
+      {
+        "psgId": 9,
+        "productGoodsId": 8,
+        "productId": 1,
+        "pdtSku": "",
+        "pdtName": "",
+        "brandId": 0,
+        "shopId": 1,
+        "brandName": "",
+        "salePrice": 44,
+        "marketPrice": 0,
+        "imgs": [
+          "图片URL1"
+        ]
+      },
+      {
+        "psgId": 8,
+        "productGoodsId": 8,
+        "productId": 1,
+        "pdtSku": "",
+        "pdtName": "",
+        "brandId": 0,
+        "shopId": 1,
+        "brandName": "",
+        "salePrice": 1,
+        "marketPrice": 0,
+        "imgs": [
+          "图片URL1"
+        ]
+      },
+      {
+        "psgId": 10,
+        "productGoodsId": 8,
+        "productId": 1,
+        "pdtSku": "",
+        "pdtName": "",
+        "brandId": 0,
+        "shopId": 1,
+        "brandName": "",
+        "salePrice": 44,
+        "marketPrice": 0,
+        "imgs": [
+          "图片URL1"
+        ]
+      },
+      {
+        "psgId": 6,
+        "productGoodsId": 8,
+        "productId": 1,
+        "pdtSku": "222222",
+        "pdtName": "",
+        "brandId": 0,
+        "shopId": 1,
+        "brandName": "",
+        "salePrice": 3,
+        "marketPrice": 0,
+        "imgs": [
+          "图片URL1"
+        ]
+      },
+      {
+        "psgId": 5,
+        "productGoodsId": 8,
+        "productId": 1,
+        "pdtSku": "333333",
+        "pdtName": "",
+        "brandId": 0,
+        "shopId": 1,
+        "brandName": "",
+        "salePrice": 12,
+        "marketPrice": 0,
+        "imgs": [
+          "图片URL1"
+        ]
+      },
+      {
+        "psgId": 7,
+        "productGoodsId": 8,
+        "productId": 1,
+        "pdtSku": "",
+        "pdtName": "",
+        "brandId": 0,
+        "shopId": 1,
+        "brandName": "",
+        "salePrice": 1,
+        "marketPrice": 0,
+        "imgs": [
+          "图片URL1"
+        ]
+      }
+    ],
+    "photoAlbum": [
+      {
+        "albumId": 10,
+        "albumType": 1,
+        "shopId": 1,
+        "companyId": 0,
+        "brandId": 0,
+        "seriesId": 0,
+        "albumName": "default name 0",
+        "picUrl": "",
+        "deleteStatus": 0,
+        "createDate": "2016-07-29 13:50:24",
+        "createOperator": "",
+        "updateDate": "2016-07-29 13:50:31",
+        "updateOperator": "",
+        "imgCount": 0
+      },
+      {
+        "albumId": 11,
+        "albumType": 1,
+        "shopId": 1,
+        "companyId": 0,
+        "brandId": 0,
+        "seriesId": 0,
+        "albumName": "default name 1",
+        "picUrl": "",
+        "deleteStatus": 0,
+        "createDate": "2016-07-29 13:50:24",
+        "createOperator": "",
+        "updateDate": "2016-07-29 13:50:31",
+        "updateOperator": "",
+        "imgCount": 0
+      }
+    ],
+    "totalElemenets": 1,
+    "activityList": [
+      {
+        "id": 1,
+        "shopId": 1,
+        "title": "",
+        "type": 0,
+        "activityPic": "",
+        "context": "1",
+        "sort": 100,
+        "startDate": null,
+        "endDate": null,
+        "deleteStatus": 0,
+        "createDate": "2016-08-03 18:11:30",
+        "createOperator": "",
+        "updateDate": "2016-08-03 18:11:30",
+        "updateOperator": ""
+      }
+    ],
+    "isCollect": false,
+    "totalPage": 1
+  }
+}

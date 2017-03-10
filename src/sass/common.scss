@@ -1,0 +1,127 @@
+.iconfont {
+  font-size: 1.24rem;
+}
+
+html,
+body {
+  font-family: $font-primary-font;
+  background-color: $body-bg;
+}
+
+a {
+  color: inherit;
+}
+
+/**按钮配置*/
+
+.btn {
+  display: inline-block;
+  margin-bottom: 0; // For input.btn
+  font-weight: $btn-font-weight;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+  border: 1px solid transparent;
+  white-space: nowrap;
+  //.button-size($padding-base-vertical; $padding-base-horizontal; $font-size-base; $line-height-base; $btn-border-radius-base);
+  //.user-select(none);
+
+}
+
+.btn[disabled] {
+  background-color: $btn-disabled-color;
+}
+
+.btn-primary {
+  background-color: $btn-primary-bg;
+}
+
+.btn-link {
+  color: $link-color;
+  font-weight: normal;
+  border-radius: 0;
+  background: transparent;
+  //&,
+  //&:active,
+  //&.active,
+  //&[disabled],
+  //fieldset[disabled] & {
+  //  background-color: transparent;
+  //  //.box-shadow(none);
+  //}
+  //&,
+  //&:hover,
+  //&:focus,
+  //&:active {
+  //  border-color: transparent;
+  //}
+  //&:hover,
+  //&:focus {
+  //  color: $link-hover-color;
+  //  text-decoration: $link-hover-decoration;
+  //  background-color: transparent;
+  //}
+  //&[disabled],
+  //fieldset[disabled] & {
+  //  &:hover,
+  //  &:focus {
+  //    color: $btn-link-disabled-color;
+  //    text-decoration: none;
+  //  }
+  //}
+}
+
+.iconfont.icon-dingpinshanchu2:before {
+  color: #ff0000;
+}
+
+.container {
+  margin-top: $header-height;
+}
+
+/** 重置列表元素 **/
+ul, ol {
+  list-style: none;
+}
+
+/** 重置文本格式元素 **/
+a {
+  text-decoration: none;
+}
+.browser {
+  #nprogress .bar {
+    background-color: $brand-danger;
+    top: $header-height;
+    height: 0.3rem;
+    .peg {
+      box-shadow: none;
+      position: static;
+    }
+  }
+}
+
+.iSlider-close {
+  position: absolute;
+  right: 0;
+  top: 0
+}
+
+.carousel-indicators {
+  li {
+    margin: 0 12px;
+    &.active {
+      width: 24px;
+      border-radius: 12px;
+    }
+  }
+}
+
+.carousel-inner {
+  .item {
+    img {
+      width: 100%;
+    }
+  }
+}

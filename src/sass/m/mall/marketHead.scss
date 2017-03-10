@@ -1,0 +1,104 @@
+.market-head {
+  text-align: center;
+  margin-top: 0!important;
+  background-color: #fff;
+  .info {
+    padding: pxToRem(40) 0;
+    color: #444;
+    position: relative;
+    h2 {
+      font-weight: normal;
+      font-size: pxToRem(36);
+      line-height: 1;
+    }
+    .visit {
+      padding: pxToRem(40) 0;
+      font-size: pxToRem(20);
+      line-height: 1;
+      color: #666;
+      span {
+        margin-right: pxToRem(20);
+        &.star-wrapper {
+          div {
+            display: inline-block;
+          }
+        }
+      }
+    }
+    .label-list{
+      @import "../../elements/dimension-list-view";
+      .dimension-list-view {
+        .list-view .label-item{
+          padding: 0 pxToRem(40);
+          border-right: 2px solid #e4e4e4;
+          &:last-of-type {
+            border: none;
+          }
+          span:last-of-type {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+
+    .follow {
+      position: absolute;
+      top: pxToRem(40);
+      right: pxToRem(20);
+    }
+    .like {
+      display: block;
+      width: pxToRem(128);
+      height: pxToRem(50);
+      background-color: #439df7;
+      color: #fff;
+      text-align: center;
+      line-height: pxToRem(50);
+      border-radius: 6px;
+      font-size: pxToRem(28);
+      &.disabled {
+        background-color: #e4e4e4;
+        color: #999;
+      }
+    }
+  }
+  .theme {
+    padding-bottom: pxToRem(20);
+    font-size: 0;
+    white-space: nowrap;
+    overflow-x: scroll;
+    margin-left: pxToRem(20);
+    border-bottom: 1px solid #e4e4e4;
+    .item {
+      display: inline-block;
+      position: relative;
+      margin-left: pxToRem(20);
+      width: pxToRem(230);
+      height: pxToRem(230);
+      &:first-of-type {
+        margin-left: 0;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+      .label {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        color: #fff;
+        padding: pxToRem(5) 0;
+        .name {
+          font-size: pxToRem(28);
+          line-height: pxToRem(38);
+        }
+        .floor {
+          font-size: pxToRem(24);
+          line-height: pxToRem(34);
+        }
+      }
+    }
+  }
+}

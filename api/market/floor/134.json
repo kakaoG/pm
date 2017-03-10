@@ -1,0 +1,90 @@
+{
+  "ok": true,
+  "message": "响应成功",
+  "code": 200,
+  "id": 134,
+  "dataMap": {
+    "floorList": [
+      {
+        "id": 67,
+        "idUuid": 273,
+        "buildingId": 40,
+        "buildingIdUuid": 135,
+        "floorCode": "AF01",
+        "floorName": "综合馆一楼",
+        "isDel": null,
+        "createDate": null
+      },
+      {
+        "id": 68,
+        "idUuid": 274,
+        "buildingId": 40,
+        "buildingIdUuid": 135,
+        "floorCode": "AF02",
+        "floorName": "综合馆二楼",
+        "isDel": null,
+        "createDate": null
+      },
+      {
+        "id": 69,
+        "idUuid": 275,
+        "buildingId": 40,
+        "buildingIdUuid": 135,
+        "floorCode": "AF03",
+        "floorName": "综合馆三楼",
+        "isDel": null,
+        "createDate": null
+      },
+      {
+        "id": 70,
+        "idUuid": 276,
+        "buildingId": 40,
+        "buildingIdUuid": 135,
+        "floorCode": "AF04",
+        "floorName": "综合馆四楼",
+        "isDel": null,
+        "createDate": null
+      },
+      {
+        "id": 71,
+        "idUuid": 277,
+        "buildingId": 40,
+        "buildingIdUuid": 135,
+        "floorCode": "AF05",
+        "floorName": "综合馆五楼",
+        "isDel": null,
+        "createDate": null
+      },
+      {
+        "id": 971,
+        "idUuid": 1030971,
+        "buildingId": 40,
+        "buildingIdUuid": 135,
+        "floorCode": "AF06",
+        "floorName": "综合馆六楼",
+        "isDel": null,
+        "createDate": null
+      },
+      {
+        "id": 972,
+        "idUuid": 1030972,
+        "buildingId": 40,
+        "buildingIdUuid": 135,
+        "floorCode": "AB01",
+        "floorName": "负一楼",
+        "isDel": null,
+        "createDate": null
+      },
+      {
+        "id": 973,
+        "idUuid": 1030973,
+        "buildingId": 40,
+        "buildingIdUuid": 135,
+        "floorCode": "AB02",
+        "floorName": "负二楼",
+        "isDel": null,
+        "createDate": null
+      }
+    ]
+  }
+}

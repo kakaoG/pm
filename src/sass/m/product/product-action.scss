@@ -1,0 +1,19 @@
+.product-action-view {
+  .btn {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: pxToRem(100);
+    text-align: center;
+    line-height: pxToRem(100);
+    color: #fff;
+    font-size: pxToRem(32);
+    background-color: #439df7;
+    i { font-size: pxToRem(32); margin-right: pxToRem(8);}
+    &.remove {
+      background-color: #000;
+      i { display: none;}
+    }
+  }
+}

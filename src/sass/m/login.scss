@@ -1,0 +1,53 @@
+.login {
+  font-size: 1.2rem;
+  color: #999;
+
+  .ul-login {
+    padding: 0 1.06rem;
+  }
+  .ul-login li {
+    height: 4.9rem;
+    line-height: 4.9rem;
+    border-bottom: 1px solid #eaeaea;
+  }
+
+  .ul-login li input {
+    height: inherit;
+    width: 100%;
+    border: 0;
+    color: #333;
+  }
+  input::-webkit-input-placeholder {
+    font-size: 1.2rem;
+    color: #999;
+  }
+  .ul-login li input::-moz-placeholder {
+    font-size: 1.2rem;
+    color: #999;
+  }
+  .btn-get {
+    height: 3.7rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    width: 100%;
+    border: 0;
+    letter-spacing: .5rem;
+    color: #fff;
+  }
+  .ul-login li.other {
+    height: 3.5rem;
+    line-height: 3.5rem;
+    border: 0;
+    color: #999;
+  }
+  .a-password {
+    float: left;
+  }
+  .a-register {
+    float: right;
+  }
+  a:visited {
+    color: #999;
+  }
+}

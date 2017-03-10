@@ -1,0 +1,23 @@
+.shopping-list-item-view {
+  width: 50%;
+  margin-bottom: pxToRem(20);
+  background-color: #fff;
+  border-radius: 8px;
+  float: left;
+  .img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: pxToRem(150*2);
+    width: pxToRem(150*2);
+    img {
+      height: pxToRem(150*2);
+      width: pxToRem(150*2);
+    }
+  }
+  .info {
+    padding: pxToRem(30);
+    font-size: pxToRem(28);
+    text-align: center;
+  }
+}

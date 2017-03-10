@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "message": "响应成功",
+  "code": 200,
+  "dataMap": {
+    "data": [
+      {
+        "id": 51,
+        "createDate": "2016-08-22 17:37:50",
+        "objectType": "market",
+        "objectId": "1",
+        "objectName": null,
+        "score": 4.33,
+        "userObject": "C",
+        "userId": "open008",
+        "nickName": "1111",
+        "showData": true,
+        "comment": "发",
+        "picture": "http://10.11.25.215/group01/M00/00/86/CgsZ11e6x-6AZZf_AAAAQ5IVPrc164.jpg,http://10.11.25.215/group01/M00/00/85/CgsZ2Fe6yB6AWOrBAAAARI0sXtQ346.jpg,http://10.11.25.215/group01/M00/00/85/CgsZ2Fe6yB6ABWVzAAAAQFtg7bM400.jpg,http://10.11.25.215/group01/M00/00/86/CgsZ11e6x-6AVeTuAAAARN3auYc415.jpg",
+        "likedNumber": 0,
+        "extendColumnOne": null,
+        "extendColumnTwo": null,
+        "extendColumnThree": null,
+        "extendColumnFour": null,
+        "extendColumnFive": null,
+        "auth": false,
+        "redstarReviewDetails": [],
+        "redstarReviewReplies": [],
+        "userLiked": false
+      }
+    ]
+  }
+}

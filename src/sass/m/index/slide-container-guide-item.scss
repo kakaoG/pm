@@ -1,0 +1,25 @@
+.slide-container-guide-item {
+  background: #ffffff;
+  padding: pxToRem(24) 0;
+  width: 100%;
+  .title {
+    font-size: pxToRem(36);
+    text-align: center;
+    padding-bottom: pxToRem(24);
+  }
+  .content {
+    padding: 0 pxToRem(24);
+    max-height: pxToRem(650);
+    overflow-y: scroll;
+  }
+  .btn-close{
+    position: absolute;
+    bottom: pxToRem(-60) ;
+    left: 50%;
+    margin-left: pxToRem(-50/2);
+    .icon-close {
+      font-size: pxToRem(50);
+      color: #ffffff;
+    }
+  }
+}

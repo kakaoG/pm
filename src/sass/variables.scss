@@ -1,0 +1,22 @@
+$remCoefficient: 22.5;
+// pixels to rems
+@function pxToRem($px) {
+  @return $px / $remCoefficient * 1rem;
+}
+$btn-primary-bg: #439dfc;
+$invalid-color: #e1e1e1;
+$header-height: 4.4rem;
+$font-primary-font: "微软雅黑";
+$font-primary-font-size: pxToRem(28);
+$font-invalid-color: $invalid-color;
+$btn-disabled-color: $invalid-color;
+$box-border-color: $invalid-color;
+
+$border-radius-slide-container: 0.3rem;
+$main-background-color: #f5f5f5;
+$home-background-color: $main-background-color;
+$home-div-margin: pxToRem(16);
+
+// others
+$baseColor : rgb(32,164,253);
+

@@ -1,0 +1,101 @@
+.shop-info {
+  background-color: #fff;
+  .shop-info-head {
+    position: relative;
+    font-size: 0;
+    img { width: 100%; height: pxToRem(330);}
+    i.iconfont {
+      position: absolute;
+      top: pxToRem(25);
+      right: pxToRem(16);
+      font-size: pxToRem(48);
+      color: #cccccc;
+    }
+  }
+  .shop-info-dimension {
+    padding: pxToRem(30) pxToRem(16) pxToRem(20);
+    font-size: 0;
+    .aside-l {
+      img {
+        width: pxToRem(150);
+        height: pxToRem(150);
+        border-radius: 50%;
+      }
+    }
+    .info {
+      &>h4,
+      &>div{
+        line-height: 2rem;
+      }
+      font-size: pxToRem(28);
+      margin-top: pxToRem(10);
+      position: relative;
+      &:after {
+        content: '';
+        position: absolute;
+        bottom: pxToRem(-25);
+        left: 0;
+        right: 0;
+        height: 1px;
+        background-color: #e4e4e4;
+      }
+      @import "../../elements/dimension-list-view";
+
+      .score div { display: inline-block;}
+      h4 { font-size: pxToRem(36); font-weight: normal; color: #444;}
+      span { color: #666;}
+    }
+  }
+  .aside-l { width: 25%; display: inline-block; vertical-align: top;}
+  .aside-r { width: 75%; display: inline-block;}
+  .shop-info-classification {
+    font-size: 0;
+    padding: pxToRem(10) pxToRem(16) pxToRem(26);
+    position: relative;
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: pxToRem(16);
+      right: 0;
+      height: 1px;
+      background-color: #e4e4e4;
+    }
+    div span {
+      display: inline-block;
+      font-size: pxToRem(28);
+      color: #999999;
+    }
+    .aside-l {
+      width: 150px;
+      margin-right: calc(25% - 150px);
+      text-align: center;
+      span.like {
+        &.disabled {
+          background-color: #e4e4e4;
+          color: #999;
+        }
+        padding: 0 pxToRem(25);
+        height: pxToRem(50);
+        line-height: pxToRem(50);
+        text-align: center;
+        border-radius: pxToRem(4);
+        background-color: #439df7;
+        color: #fff;
+      }
+    }
+    .aside-r{
+      vertical-align: bottom;
+      span {
+        line-height: 1;
+        padding: pxToRem(5) pxToRem(10);
+        border: 1px solid #e4e4e4;
+        border-radius: pxToRem(4);
+        margin-right: pxToRem(20);
+        &:last-of-type {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}

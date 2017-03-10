@@ -1,0 +1,47 @@
+.header {
+  font-size: pxToRem(32);
+  line-height: pxToRem(48);
+  padding: pxToRem(30) pxToRem(16);
+  color: #444444;
+  //font-weight: bold;
+
+  position: relative;
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: pxToRem(16);
+    height: 1px;
+    background-color: #e4e4e4;
+  }
+  a {
+    font-size: pxToRem(28);
+    color: #439df7;
+    float: right;
+    font-weight: normal;
+    margin-right: pxToRem(16);
+    i {
+      color: #439df7;
+      margin-right: pxToRem(8);
+    }
+  }
+  .action .del {
+    margin: pxToRem(30) 0;
+    font-size: pxToRem(28);
+    color: #439df7;
+  }
+  .li-img {
+    font-size: 0;
+    img {
+      width: pxToRem(180);
+      height: pxToRem(180);
+      margin-right: pxToRem(20);
+    }
+  }
+  .div-other {
+    text-align: right;
+    color: #999;
+    margin: pxToRem(32) 0;
+  }
+}

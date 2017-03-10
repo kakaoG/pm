@@ -1,0 +1,18 @@
+.slide-container-conductor-item {
+  padding: pxToRem(40) pxToRem(24);
+  .content {
+    img {
+      width: 100%;
+    }
+  }
+  .btn-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: pxToRem(-50/2);
+    .icon-close {
+      font-size: pxToRem(50);
+      color: #ffffff;
+    }
+  }
+}

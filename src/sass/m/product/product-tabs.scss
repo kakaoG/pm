@@ -1,0 +1,9 @@
+.tabs-view {
+  margin-top: pxToRem(16);
+  .tab-item-view:first-child {
+    margin-left: pxToRem(42);
+  }
+  .tab-item-view {
+    margin-left: pxToRem(80);
+  }
+}

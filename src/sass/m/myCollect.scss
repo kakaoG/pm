@@ -1,0 +1,54 @@
+$bc: #eaeaea;
+.myCollect {
+  .collect-list {
+    li {
+      padding: pxToRem(20) pxToRem(24);
+      border: 1px solid $bc;
+      font-size: 0;
+      a {
+        display: flex;
+        align-items: center;
+        position: relative;
+      }
+      .logo {
+        width: pxToRem(110);
+        height: pxToRem(110);
+        border: 1px solid $bc;
+        border-radius: 50%;
+        display: -webkit-inline-box;
+        -webkit-box-align: center;
+        -webkit-box-pack: center;
+        vertical-align: top;
+      }
+      .content {
+        display: inline-block;
+        margin-left: pxToRem(30);
+        .name {
+          color: #666;
+          font-size: pxToRem(28);
+          line-height: pxToRem(42);
+        }
+        .i-score {
+          font-style: normal;
+          margin-left: .2rem;
+          color: #ff5f02;
+          font-size: 1.24rem;
+        }
+        .score-main {
+          display: -webkit-box;
+          box-pack: center;
+          -webkit-box-pack: center;
+          box-align: center;
+          -webkit-box-align: center;
+        }
+      }
+      .iconlink {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: pxToRem(24);
+      }
+    }
+  }
+}

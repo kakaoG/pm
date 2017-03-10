@@ -1,0 +1,69 @@
+header.header {
+  text-align: center;
+  color: #fff;
+  font-size: 0.9px;
+  width: 100%;
+  -webkit-transform: translateZ(0);
+  display: inline;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+
+  .header-box{
+    background-color: #333;
+  }
+  .header-box .text{
+    height: $header-height;
+    line-height: $header-height;
+    text-align: center;
+    font-size: 1.8rem;
+    float: left;
+  }
+  .header-box .text.title {
+    /*padding: 0 2rem;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+  }
+
+  .header-box .goback-button{
+    width: 6.2rem;
+    height: $header-height;
+    line-height: $header-height;
+    font-size: 1.8rem;
+    color: #fff;
+    float: left;
+    padding-right: 3rem;
+  }
+
+  .header-box .goback-button i{
+    line-height: $header-height;
+    font-size: 1.8rem;
+    color: #fff;
+    padding-left: 1.5rem;
+  }
+
+  .header-box .right-box{
+    width: 6.2rem;
+    height: $header-height;
+    line-height: $header-height;
+    font-size: 1.6rem;
+    color: #1680fa;
+    float: left;
+    padding: 0 1.5rem;
+  }
+  .header-box .u-full span{
+    height: $header-height;
+    display:-moz-inline-box;
+    display: inline-block;
+    color: #fff;
+  }
+
+  .g-hrz, .g-hrz *, .g-hrz :after, .g-hrz :before{
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,18 @@
+.article-show{
+  background-color: #f5f5f5;
+  .header {
+    font-size: pxToRem(32);
+    line-height: pxToRem(48);
+    padding: pxToRem(30) pxToRem(32);
+    color: #444444;
+    //font-weight: bold;
+  }
+  .auto-tooltip {
+    display: none;
+  }
+  .footer {
+
+  }
+}
+
+

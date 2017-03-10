@@ -1,0 +1,28 @@
+.business-features {
+  font-size: pxToRem(28);
+  background-color: #fff;
+  .business-features-view {
+    ul {
+      padding: 0 pxToRem(16) pxToRem(36);
+      color: #666666;
+      font-size: 0;
+      margin-top:-15px;
+      li {
+        font-size: pxToRem(28);
+        display: inline-block;
+        vertical-align: top;
+        padding: pxToRem(4) pxToRem(16);
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-right: pxToRem(8);
+        margin-top: 15px;
+        i {
+          width: pxToRem(40);
+          height: pxToRem(40);
+          border-radius: pxToRem(4);
+          margin-right: pxToRem(8);
+        }
+      }
+    }
+  }
+}

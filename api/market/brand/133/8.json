@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "message": "响应成功",
+  "code": 0,
+  "dataMap": {
+    "brandList": [
+      {
+        "id": 3603,
+        "idUuid": 987524,
+        "companyId": 4334,
+        "companyIdUuid": 535221,
+        "brandNumber": "7152238521364C6F87E76C68A0B6280A",
+        "brandName": "红苹果",
+        "brandPy": "hpg",
+        "isDel": 0,
+        "createDate": "2016-08-15 20:15:06",
+        "brandDescription": null,
+        "brandLogo": "/g1/M00/00/16/rBBualfSXyWACjf4AACUubmIUVA60.JPEG",
+        "publicityType": 0,
+        "publicityMaterial": "",
+        "guideImg": "",
+        "categoryId": 0,
+        "categoryName": ""
+      },
+      {
+        "id": 3897,
+        "idUuid": 1171806,
+        "companyId": 1974,
+        "companyIdUuid": 534251,
+        "brandNumber": "246649BFCCCE4E559E560145BE5C1E9A",
+        "brandName": "双叶",
+        "brandPy": "sy",
+        "isDel": 0,
+        "createDate": "2016-08-15 20:15:06",
+        "brandDescription": null,
+        "brandLogo": "/g1/M00/00/16/rBBualfSXyWACjf4AACUubmIUVA60.JPEG",
+        "publicityType": 0,
+        "publicityMaterial": "",
+        "guideImg": "",
+        "categoryId": 0,
+        "categoryName": ""
+      }
+    ]
+  }
+}

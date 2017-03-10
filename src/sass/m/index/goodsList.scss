@@ -1,0 +1,52 @@
+.goods-list {
+  background-color: #fff;
+  .img-item {
+    font-size: 0;
+    .item {
+      display: inline-block;
+      width: calc(50% - 1rem);
+      font-size: pxToRem(26);
+      position: relative;
+      margin: 0 .5rem pxToRem(10);
+      vertical-align: top;
+      .goods-img {
+        font-size: 0;
+        img {
+          width: pxToRem(350);
+          height: pxToRem(350);
+        }
+      }
+      .goods-text {
+        padding: pxToRem(25) 0 0;
+        font-size: pxToRem(28);
+        line-height: pxToRem(38);
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+      .goods-price {
+        padding: pxToRem(35) 0;
+        font-size: pxToRem(24);
+        line-height: pxToRem(34);
+        .current-price {
+          color: #439df7;
+        }
+        .cost-price {
+          margin-left: pxToRem(20);
+          color: #999;
+        }
+      }
+    }
+  }
+  a.more {
+    display: block;
+    margin-left: pxToRem(16);
+    padding: pxToRem(30) 0;
+    color: #439df7;
+    text-align: center;
+    text-indent: pxToRem(-16);;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+  }
+}

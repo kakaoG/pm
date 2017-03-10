@@ -1,0 +1,43 @@
+.navigate-map-view {
+  position: fixed;
+  left: 0;
+  height: 100%;
+  width: 100%;
+
+  .tabs {
+    padding: 0 24px;
+    .tab-item-view {
+      margin-right: pxToRem(40);
+      text-align: center;
+      vertical-align: top;
+      .tab-item {
+        width: auto;
+      }
+    }
+  }
+  .content {
+    background-color: #f1f1f1;
+    height: 100%;
+    width: 100%;
+    .image {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+    .summary {
+      height: pxToRem(88);
+      bottom: 0;
+      position: fixed;
+      font-size: pxToRem(32);
+      color: #444;
+      line-height: pxToRem(88);
+      text-align: center;
+      width: 100%;
+    }
+  }
+}

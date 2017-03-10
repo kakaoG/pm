@@ -1,0 +1,25 @@
+.iSlider-view {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  z-index: 2000;
+  .iSlider-wrapper {
+    width: 100%;
+    height: 100%;
+
+    .islider-node div {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .iSlider-close {
+    padding: pxToRem(24);
+    color: #fff;
+    font-size: pxToRem(38);
+  }
+}

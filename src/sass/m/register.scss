@@ -1,0 +1,52 @@
+.register {
+  .slide-container-regist-item {
+    border-radius: $border-radius-slide-container$baseColor ;
+    background: #ffffff;
+    padding: pxToRem(60) 0;
+    max-height: pxToRem(700);
+    width: 100%;
+    overflow-y: hidden;
+    .title {
+      font-size: pxToRem(32);
+      text-align: center;
+    }
+    .content {
+      margin-top: pxToRem(24);
+      .comment {
+        text-align: center;
+        font-size: pxToRem(24);
+        color: #999;
+      }
+      .form-item {
+        margin-top: pxToRem(42);
+      }
+      .tel input {
+        text-indent: pxToRem(24);
+      }
+      .button {
+        margin-top: pxToRem(32);
+        text-align: center;
+        button {
+          width: pxToRem(300);
+          color: #fff;
+          background-color: #439df7;
+          border-radius: $border-radius-slide-container$baseColor ;
+          font-size: pxToRem(32);
+          padding: pxToRem(17) 0;
+          border: none;
+        }
+      }
+      padding: 0 pxToRem(30);
+    }
+    .btn-close {
+      position: absolute;
+      bottom: pxToRem(-60);
+      left: 50%;
+      transform: translateX(-50%);
+      .icon-close {
+        font-size: pxToRem(40);
+        color: #ffffff;
+      }
+    }
+  }
+}

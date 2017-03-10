@@ -1,0 +1,65 @@
+.guide-head{
+    background:#fff;
+    //margin-top: pxToRem(10);
+    .guide-info-view{
+      .header-img{
+        height:pxToRem(320);
+        width:100%;
+        background:url(../../../../img/m/testimg3x.jpg);
+      }
+    	.info{
+    		text-align:center;
+        position: relative;
+        top:pxToRem(-60);
+    		.info-img{
+    			width:pxToRem(132);
+    			height:pxToRem(132);
+    			position:relative;
+    			border-radius:pxToRem(80);
+    			margin-bottom:pxToRem(24);
+                margin:0 auto;
+                overflow:hidden;
+                img{
+                    width:100%;
+                }
+                .info-ab{
+                    position:absolute;
+                }
+    		}
+    		.info-star{
+    			padding-bottom:pxToRem(26);
+    		}
+    		.info-name{
+    			font-size:pxToRem(32);
+    			color:#444;
+    			padding-bottom:pxToRem(15);
+    		}
+    		.info-attr{
+    			font-size:pxToRem(24);
+    			color:#444;
+    			padding-bottom:pxToRem(24);
+    		}
+    		.info-goods{
+    			padding-bottom:pxToRem(36);
+    			span{
+    				font-size:pxToRem(24);
+    				color:#444;
+    				line-height: 1;
+			        padding: pxToRem(5) pxToRem(10);
+			        border: 1px solid #e4e4e4;
+			        border-radius: pxToRem(4);
+			        margin-right: pxToRem(20);
+			        &:last-of-type {
+			          margin-right: 0;
+        }
+    			}
+    		}
+    		.info-introduce{
+    			font-size:pxToRem(24);
+    			color:#999;
+    			padding-bottom:pxToRem(30);
+    			padding:0 pxToRem(60) pxToRem(30);
+    		}
+    	}
+    }
+}

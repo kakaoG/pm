@@ -1,0 +1,59 @@
+{
+  "ok": true,
+  "message": "响应成功",
+  "code": 200,
+  "dataMap": {
+    "totalScore": "1.67",
+    "page": 1,
+    "totalElemenets": 1,
+    "data": [
+      {
+        "id": 36,
+        "createDate": "2016-08-22 14:51:19",
+        "objectType": "merchant",
+        "objectId": "1",
+        "objectName": null,
+        "score": 3.35,
+        "userObject": "C",
+        "userId": "1",
+        "nickName": "187****6065",
+        "showData": true,
+        "comment": "测试",
+        "picture": null,
+        "likedNumber": 0,
+        "extendColumnOne": "http://www.baidu.com",
+        "extendColumnTwo": null,
+        "extendColumnThree": null,
+        "extendColumnFour": null,
+        "extendColumnFive": null,
+        "auth": false,
+        "redstarReviewDetails": [
+          {
+            "id": 64,
+            "createDate": "2016-08-22 14:51:19",
+            "labelCode": "label_m_env",
+            "score": 3,
+            "reviewId": 36
+          },
+          {
+            "id": 65,
+            "createDate": "2016-08-22 14:51:19",
+            "labelCode": "label_m_product",
+            "score": 2,
+            "reviewId": 36
+          },
+          {
+            "id": 66,
+            "createDate": "2016-08-22 14:51:19",
+            "labelCode": "label_m_service",
+            "score": 5,
+            "reviewId": 36
+          }
+        ],
+        "redstarReviewReplies": [],
+        "userLiked": false
+      }
+    ],
+    "totalPage": 1
+  }
+}

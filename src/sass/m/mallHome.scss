@@ -1,0 +1,6 @@
+.mall-home {
+  background-color: $home-background-color;
+  @import "index/home-common";
+  @import "mall/characteristic-place";
+}
+

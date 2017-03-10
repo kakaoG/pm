@@ -1,0 +1,34 @@
+.guide-share{
+	.fl { float: left;}
+    .fr { float: right;}
+    background:#fff;
+	margin-top: pxToRem(10);
+	.share{
+		.article{
+			.share-list{
+				margin-bottom:pxToRem(24);
+				.share-img{
+					width:pxToRem(280);
+					height:pxToRem(210);
+					margin-right:pxToRem(32);
+					img{
+						width:100%;
+					}
+				}
+				.share-info{
+					margin-top:pxToRem(28);
+					width:50%;
+					.share-info-text{
+						color:#444;
+						font-size:pxToRem(32);
+						margin:pxToRem(34) 0 pxToRem(24);
+					}
+					.share-info-time{
+						color:#666;
+						font-size:pxToRem(24);
+					}
+				}
+			}
+		}
+	}
+}

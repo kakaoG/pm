@@ -1,0 +1,55 @@
+.product-view {
+  position: relative;
+  background-color: #f5f5f5;
+  margin-bottom: pxToRem(100);
+  .product-banner {
+    @import "./product/product-banner";
+  }
+  .product-base-info {
+    @import "./product/product-base-info";
+  }
+  .product-introduction {
+    @import "./product/product-introduction";
+  }
+  .product-store-address {
+    @import "./product/product-store-address";
+  }
+  .product-tabs {
+    background-color: #fff;
+    &.tab-fixed {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 9999;
+      height: $header-height;
+      line-height: $header-height;
+      border-bottom: 2px solid #f5f5f5;
+      .tabs-view {
+        margin-top: 0;
+      }
+    }
+    @import "./product/product-tabs";
+  }
+  .product-detail {
+    @import "./product/product-detail";
+  }
+  .product-param {
+    @import "./product/product-param";
+  }
+  .product-service {
+    @import "./product/product-service";
+  }
+  .product-evaluate {
+    @import "./product/product-evaluate";
+  }
+  .product-all-evaluate {
+    @import "./product/product-all-evaluate";
+  }
+  .product-suggest {
+    @import "./product/product-suggest";
+  }
+  .product-action {
+    @import "./product/product-action";
+  }
+}

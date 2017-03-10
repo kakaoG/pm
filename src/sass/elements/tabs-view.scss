@@ -1,0 +1,25 @@
+.tabs-view {
+  height: pxToRem(88);
+  line-height: pxToRem(88);
+  .tabs-view-tabs {
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+    li {
+      display: inline-block;
+      font-size: pxToRem(28);
+      &.active {
+        color: #439df7;
+        border-bottom: pxToRem(4) #439df7 solid;
+      }
+    }
+
+    .tab-item {
+      text-align: center;
+      text-overflow:ellipsis;
+      overflow:hidden;
+      white-space:nowrap;
+      display: block;
+    }
+  }
+}

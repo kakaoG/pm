@@ -1,0 +1,107 @@
+.list-coupon-item {
+  height: pxToRem(180);
+  margin-top: pxToRem(32);
+  &:first-of-type {
+    margin-top: 4px;
+  }
+  ul {
+    display: -webkit-box;
+  }
+  li {
+    float: left;
+  }
+  .instruction {
+    width: pxToRem(370);
+    height: pxToRem(180);
+    color: #ffffff;
+    text-align: center;
+    //margin: pxToRem(16) 0;
+    background-color: #ff5142;
+    position: relative;
+    //background-color: #e4e4e4;
+    .title {
+      font-size: pxToRem(36);
+      margin-top: pxToRem(20);
+      padding-bottom: 0;
+    }
+    .condition {
+      font-size: pxToRem(20);
+      margin-top: pxToRem(20);
+    }
+    .expiry-date {
+      font-size: pxToRem(20);
+      margin-top: pxToRem(30);
+    }
+    .bg-top {
+      position: absolute;
+      background: url("../../../../img/m/index/tis_bg01.jpg");
+      height: pxToRem(5);
+      margin-top: -0.17rem;
+      width: 100%;
+    }
+    .bg-bottom {
+      position: absolute;
+      bottom: -0.17rem;
+      background: url("../../../../img/m/index/tis_bg01.jpg");
+      height: pxToRem(5);
+      width: 100%;
+      transform: rotate(180deg);
+    }
+  }
+  .concat {
+  }
+  .action {
+    background-color: #e44242;
+    height: pxToRem(180);
+    //margin: pxToRem(16) 0;
+    position: relative;
+    text-align: center;
+    width: pxToRem(160);
+    color: #ffffff;
+    border-left: 2px dashed #fff;
+    .bg-top {
+      position: absolute;
+      background: url("../../../../img/m/index/tis_bg02.jpg");
+      height: pxToRem(5);
+      margin-top: -0.17rem;
+      width: 100%;
+    }
+    .bg-bottom {
+      position: absolute;
+      bottom: -0.17rem;
+      background: url("../../../../img/m/index/tis_bg02.jpg");
+      height: pxToRem(5);
+      width: 100%;
+      transform: rotate(180deg);
+    }
+    .action-text {
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      left: 50%;
+    }
+  }
+}
+.list-coupon-item .disabled {
+  .instruction {
+    color: #666;
+    background-color: #e4e4e4;
+    .bg-top {
+      background: url("../../../../img/m/index/tis_bg03.jpg");
+    }
+    .bg-bottom {
+      background: url("../../../../img/m/index/tis_bg03.jpg");
+    }
+  }
+  .action {
+    color: #666;
+    background-color: #e4e4e4;
+    border-left: 2px dashed #fff;
+    .bg-top {
+      background: url("../../../../img/m/index/tis_bg03.jpg");
+    }
+    .bg-bottom {
+      background: url("../../../../img/m/index/tis_bg03.jpg");
+    }
+  }
+}

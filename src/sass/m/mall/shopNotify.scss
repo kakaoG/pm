@@ -1,0 +1,13 @@
+.shop-notify {
+  background-color: #fff;
+  a {
+    font-size: pxToRem(24);
+    color: #444;
+    line-height: 1;
+    i {
+      color: #ff9e3d;
+      font-size: pxToRem(26);
+      margin-right: pxToRem(16);
+    }
+  }
+}

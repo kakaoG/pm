@@ -1,0 +1,8 @@
+{
+  "ok": true,
+  "message": "响应成功",
+  "code": 200,
+  "dataMap": {
+    "likedNumber": 0
+  }
+}

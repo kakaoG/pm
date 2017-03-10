@@ -1,0 +1,44 @@
+.auto-tooltip-view{
+  position: fixed;
+  bottom: 0;
+  z-index: 801;
+  color: #fff;
+  width: 100%;
+  height: pxToRem(100);
+  background-color: #4c4c4c;
+  padding: pxToRem(36) 0 pxToRem(36) 0;
+  > div {
+    float: left;
+  }
+  .close {
+    margin-left: pxToRem(20);
+    height: pxToRem(100);
+    line-height: pxToRem(100);
+    font-size:pxToRem(46);
+    color: #fff
+  }
+  .logo {
+    margin-left: pxToRem(52);
+    img {
+      width: pxToRem(100);
+      height: pxToRem(100);
+    }
+  }
+  .text {
+    margin-left: pxToRem(20);
+    font-size:pxToRem(36);
+    line-height: pxToRem(50);
+  }
+  .button {
+    float: right;
+    margin-right: pxToRem(20);
+    button {
+      height: pxToRem(82);
+      width: pxToRem(182);
+      font-size: pxToRem(32);
+      color: #fff;
+      background-color: #489ff4;
+      border: 0;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.shop-activity {
+  background-color: #f5f5f5;
+  font-size: 0;
+  & > .slideBox {
+    margin: 0 pxToRem(16);
+  }
+  img {
+    height: pxToRem(360)!important;
+  }
+}

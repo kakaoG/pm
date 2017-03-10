@@ -1,0 +1,213 @@
+{
+  "ok": true,
+  "message": "响应成功",
+  "code": 200,
+  "dataMap": {
+    "totalScore": "5.32",
+    "page": 1,
+    "reviewList": [
+      {
+        "id": 51,
+        "createDate": "2016-08-22 17:37:50",
+        "objectType": "market",
+        "objectId": "1",
+        "objectName": null,
+        "score": 4.33,
+        "userObject": "C",
+        "userId": "open008",
+        "nickName": "1111",
+        "showData": true,
+        "comment": "发",
+        "picture": "http://10.11.25.215/group01/M00/00/86/CgsZ11e6x-6AZZf_AAAAQ5IVPrc164.jpg,http://10.11.25.215/group01/M00/00/85/CgsZ2Fe6yB6AWOrBAAAARI0sXtQ346.jpg,http://10.11.25.215/group01/M00/00/85/CgsZ2Fe6yB6ABWVzAAAAQFtg7bM400.jpg,http://10.11.25.215/group01/M00/00/86/CgsZ11e6x-6AVeTuAAAARN3auYc415.jpg",
+        "likedNumber": 0,
+        "extendColumnOne": null,
+        "extendColumnTwo": null,
+        "extendColumnThree": null,
+        "extendColumnFour": null,
+        "extendColumnFive": null,
+        "auth": false,
+        "redstarReviewDetails": [
+          {
+            "id": 100,
+            "createDate": "2016-08-22 17:37:50",
+            "labelCode": "label_m_env",
+            "score": 5,
+            "reviewId": 51
+          },
+          {
+            "id": 101,
+            "createDate": "2016-08-22 17:37:50",
+            "labelCode": "label_m_product",
+            "score": 4,
+            "reviewId": 51
+          },
+          {
+            "id": 102,
+            "createDate": "2016-08-22 17:37:50",
+            "labelCode": "label_m_service",
+            "score": 4,
+            "reviewId": 51
+          }
+        ],
+        "redstarReviewReplies": [],
+        "userLiked": false
+      },
+      {
+        "id": 50,
+        "createDate": "2016-08-22 17:36:14",
+        "objectType": "market",
+        "objectId": "1",
+        "objectName": null,
+        "score": 6.31,
+        "userObject": "C",
+        "userId": "open008",
+        "nickName": "1111",
+        "showData": true,
+        "comment": "还好",
+        "picture": "http://10.11.25.215/group01/M00/00/86/CgsZ11e6x42ANHyEAAAARNSylzA323.jpg,http://10.11.25.215/group01/M00/00/85/CgsZ2Fe6x72AaCb_AAAARMfKO8o725.jpg,http://10.11.25.215/group01/M00/00/85/CgsZ2Fe6x72AHUKmAAAAREQMhW4007.jpg,http://10.11.25.215/group01/M00/00/86/CgsZ11e6x46AYqaeAAAAQvL8biQ277.jpg",
+        "likedNumber": 0,
+        "extendColumnOne": null,
+        "extendColumnTwo": null,
+        "extendColumnThree": null,
+        "extendColumnFour": null,
+        "extendColumnFive": null,
+        "auth": false,
+        "redstarReviewDetails": [
+          {
+            "id": 97,
+            "createDate": "2016-08-22 17:36:14",
+            "labelCode": "label_m_env",
+            "score": 5,
+            "reviewId": 50
+          },
+          {
+            "id": 98,
+            "createDate": "2016-08-22 17:36:14",
+            "labelCode": "label_m_product",
+            "score": 10,
+            "reviewId": 50
+          },
+          {
+            "id": 99,
+            "createDate": "2016-08-22 17:36:14",
+            "labelCode": "label_m_service",
+            "score": 4,
+            "reviewId": 50
+          }
+        ],
+        "redstarReviewReplies": [],
+        "userLiked": false
+      }
+    ],
+    "productList": [
+      {
+        "psgId": 10,
+        "productGoodsId": 8,
+        "productId": 1,
+        "pdtSku": "",
+        "pdtName": "",
+        "brandId": 0,
+        "shopId": 1,
+        "brandName": "",
+        "salePrice": 44,
+        "marketPrice": 0,
+        "imgs": [
+          "图片URL1"
+        ]
+      },
+      {
+        "psgId": 7,
+        "productGoodsId": 8,
+        "productId": 1,
+        "pdtSku": "",
+        "pdtName": "",
+        "brandId": 0,
+        "shopId": 1,
+        "brandName": "",
+        "salePrice": 1,
+        "marketPrice": 0,
+        "imgs": [
+          "图片URL1"
+        ]
+      },
+      {
+        "psgId": 5,
+        "productGoodsId": 8,
+        "productId": 1,
+        "pdtSku": "333333",
+        "pdtName": "",
+        "brandId": 0,
+        "shopId": 1,
+        "brandName": "",
+        "salePrice": 12,
+        "marketPrice": 0,
+        "imgs": [
+          "图片URL1"
+        ]
+      },
+      {
+        "psgId": 9,
+        "productGoodsId": 8,
+        "productId": 1,
+        "pdtSku": "",
+        "pdtName": "",
+        "brandId": 0,
+        "shopId": 1,
+        "brandName": "",
+        "salePrice": 44,
+        "marketPrice": 0,
+        "imgs": [
+          "图片URL1"
+        ]
+      },
+      {
+        "psgId": 4,
+        "productGoodsId": 8,
+        "productId": 1,
+        "pdtSku": "444444",
+        "pdtName": "",
+        "brandId": 0,
+        "shopId": 1,
+        "brandName": "",
+        "salePrice": 12,
+        "marketPrice": 0,
+        "imgs": [
+          "图片URL1"
+        ]
+      },
+      {
+        "psgId": 8,
+        "productGoodsId": 8,
+        "productId": 1,
+        "pdtSku": "",
+        "pdtName": "",
+        "brandId": 0,
+        "shopId": 1,
+        "brandName": "",
+        "salePrice": 1,
+        "marketPrice": 0,
+        "imgs": [
+          "图片URL1"
+        ]
+      },
+      {
+        "psgId": 6,
+        "productGoodsId": 8,
+        "productId": 1,
+        "pdtSku": "222222",
+        "pdtName": "",
+        "brandId": 0,
+        "shopId": 1,
+        "brandName": "",
+        "salePrice": 3,
+        "marketPrice": 0,
+        "imgs": [
+          "图片URL1"
+        ]
+      }
+    ],
+    "totalElemenets": 2,
+    "isCollect": false,
+    "totalPage": 1
+  }
+}

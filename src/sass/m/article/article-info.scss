@@ -1,0 +1,23 @@
+.article-info {
+  background-color:#ffffff;
+  margin-bottom: pxToRem(20);
+  .article-info-view {
+    img {
+      width: 100%;
+      height: pxToRem(320);
+      display: inline;
+      margin-bottom: pxToRem(40);
+    }
+    .articleInfo-show{
+      padding: 0 pxToRem(32) pxToRem(20);
+      font-size: pxToRem(28);
+      color:#444444;
+    }
+    .articleInfo-title{
+      padding: 0 pxToRem(32) pxToRem(20);
+      font-size: pxToRem(30);
+      color:#444444;
+      margin-bottom: pxToRem(24);
+    }
+  }
+}

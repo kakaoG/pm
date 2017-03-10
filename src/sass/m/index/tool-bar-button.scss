@@ -1,0 +1,100 @@
+.tool-bar-button-view {
+  position: fixed;
+  z-index: 800;
+  right: pxToRem(70);
+  bottom: pxToRem(70);
+  .tab-shouqi {
+  }
+  .tab-tel,
+  .tab-xie {
+    display: none;
+    position: absolute;
+    top: 0;
+  }
+
+  .tab-xie-show {
+    display: block;
+    animation: tab-xie-frame-show 0.1s forwards;
+  }
+
+  .tab-tel-show {
+    animation: tab-tel-frame-show 0.1s forwards;
+  }
+
+  .tab-xie-hide {
+    animation: tab-xie-frame-hide 0.1s forwards;
+  }
+
+  .tab-tel-hide {
+    animation: tab-tel-frame-hide 0.1s forwards;
+  }
+  @keyframes tab-xie-frame-hide {
+    0% {
+
+    }
+
+    100% {
+      top: 0;
+      left: 0;
+    }
+  }
+  @keyframes tab-tel-frame-hide {
+    0% {
+
+    }
+
+    100% {
+      top: 0;
+      left: 0;
+      display: none;
+    }
+  }
+
+  @keyframes tab-tel-frame-show {
+    0% {
+
+    }
+
+    100% {
+      top: -170px;
+      left: 10px;
+    }
+  }
+  @keyframes tab-xie-frame-show {
+    0% {
+
+    }
+    10% {
+      left: pxToRem(-140*0.10);
+      top: pxToRem(-100*0.10);
+    }
+    25% {
+      left: pxToRem(-140*0.25);
+      top: pxToRem(-100*0.25);
+    }
+    35% {
+      left: pxToRem(-140*0.35);
+      top: pxToRem(-100*0.35);
+    }
+    50% {
+      left: pxToRem(-140*0.5);
+      top: pxToRem(-100*0.5);
+    }
+    65% {
+      left: pxToRem(-140*0.65);
+      top: pxToRem(-100*0.65);
+    }
+    75% {
+      left: pxToRem(-140*0.75);
+      top: pxToRem(-100*0.75);
+    }
+    85% {
+      left: pxToRem(-140*0.85);
+      top: pxToRem(-100*0.85);
+    }
+    100% {
+      left: pxToRem(-140);
+      top: pxToRem(-100);
+    }
+  }
+}

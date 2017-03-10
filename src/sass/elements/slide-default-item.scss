@@ -1,0 +1,46 @@
+.slide-default-item {
+  padding: pxToRem(40) pxToRem(24);
+  background-color: #ffffff;
+  border-radius: $border-radius-slide-container;
+  .title {
+    text-align: center;
+    font-size: pxToRem(30);
+    color: #000000;
+  }
+  .content {
+    margin: pxToRem(30) auto 0 auto;
+    text-align: center;
+    font-size: pxToRem(24);
+    //min-height: pxToRem(90);
+    line-height: 2rem;
+    color: #666;
+  }
+  .button {
+    margin: pxToRem(40) auto 0 auto;
+    text-align: center;
+    button {
+      width: 100%;
+      padding: pxToRem(20);
+      background-color: #489ff4;
+      border-radius: 0.3rem;
+      font-size: pxToRem(30);
+      color: #ffffff;
+    }
+  }
+  .link {
+    color: #439df7;
+    font-size: 28px;
+    margin-top: 44px;
+    text-align: center;
+  }
+  .btn-close{
+    position: absolute;
+    bottom: pxToRem(-60) ;
+    left: 50%;
+    margin-left: pxToRem(-50/2);
+    .icon-close {
+      font-size: pxToRem(50);
+      color: #ffffff;
+    }
+  }
+}

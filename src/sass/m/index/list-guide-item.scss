@@ -1,0 +1,37 @@
+.list-guide-item {
+  height: pxToRem(180);
+  //margin-top: pxToRem(32);
+  &:first-of-type {
+    margin-top:0;
+  }
+  ul {
+    display: -webkit-box;
+    .guide-img{
+      width:pxToRem(100);
+      height:pxToRem(100);
+      overflow: hidden;
+      border-radius: pxToRem(100);
+      margin-right:pxToRem(40);
+      img{
+        width:100%;
+      }
+    }
+    .guide-name{
+      margin-right: pxToRem(140);
+      width:pxToRem(120);
+      line-height: pxToRem(100);
+      color:#666;
+      height: pxToRem(100);
+    }
+    .guide-top{
+      margin-top:pxToRem(30);
+      border:1px solid #666;
+      width:pxToRem(120);
+      height:pxToRem(50);
+      text-align: center;
+      line-height: pxToRem(50);
+      color:#666;
+      border-radius: pxToRem(5);
+    }
+  }
+}

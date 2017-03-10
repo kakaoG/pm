@@ -1,0 +1,25 @@
+.indentifying-code {
+    height: pxToRem(81);
+    position: relative;
+    input {
+        text-indent: pxToRem(24);
+    }
+    .indentify-button {
+        border-left: 1px solid #eaeaea;
+        color:#0091ea;
+        height: 1.1rem;
+        line-height: 1.1rem;
+        top: 50%;
+        transform: translateY(-50%);
+        position: absolute;
+        right: pxToRem(24);
+    }
+    .indentify-input-box {
+        .label-del {
+            margin-right: pxToRem(170);
+        }
+    }
+    .disabled {
+        color: #e1e1e1;
+    }
+}

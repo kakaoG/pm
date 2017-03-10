@@ -1,0 +1,50 @@
+.download-app {
+  text-align: center;
+  .logo {
+    margin-top: pxToRem(320);
+    img {
+      width: pxToRem(180);
+    }
+    p {
+      font-size: pxToRem(32);
+      line-height: 1;
+      font-weight: bold;
+      color: #444;
+      margin-top: pxToRem(28);
+    }
+  }
+  .surprise {
+    margin-top: pxToRem(80);
+    color: #999;
+    font-size: pxToRem(36);
+  }
+
+  .download.btn {
+    margin: 0 5%;
+    height: pxToRem(84);
+    text-align: center;
+    line-height: pxToRem(84);
+    color: #fff;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: pxToRem(32);
+    width: 90%;
+    &.ios {
+      position: fixed;
+      bottom: pxToRem(224);
+      left: 0;
+      background: #4ec86e;
+    }
+    &.android {
+      position: fixed;
+      bottom: pxToRem(100);
+      left: 0;
+      background: #439df7;
+    }
+  }
+
+  .mask {
+    background-color: rgba(0,0,0,.65);
+  }
+
+}

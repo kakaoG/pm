@@ -1,0 +1,46 @@
+/**
+ * 图片显示组件Less
+ **/
+$btn-del-size: pxToRem(32);
+.image-view {
+  .list {
+    li {
+      margin: 0 pxToRem(20) pxToRem(20) 0;
+      width: pxToRem(100);
+      float: left;
+      &.hideImage {
+        animation: hideImage 1.5s ease forwards;
+      }
+      div {
+        position: relative;
+        width: pxToRem(80);
+        .del-icon {
+          position: absolute;
+          right: -$btn-del-size/2;
+          top: -$btn-del-size/2;
+          //font-size: @btn-del-size;
+          width: $btn-del-size;
+          height: $btn-del-size;
+          background: url("../../../img/m/dianping_del.png");
+          background-size: 100%;
+        }
+        img {
+          width: pxToRem(80);
+          height: pxToRem(80);
+          overflow: hidden;
+        }
+      }
+    }
+    display: inline-block;
+  }
+}
+
+@-webkit-keyframes hideImage {
+  0% {
+  }
+  100% {
+    width: 0;
+    opacity: 0;
+    margin: 0;
+  }
+}

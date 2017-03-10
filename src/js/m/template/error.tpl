@@ -1,0 +1,1 @@
+<img class="empty" src="/img/m/nothing.png" alt="这里什么都没有" />

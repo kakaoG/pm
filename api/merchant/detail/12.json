@@ -1,0 +1,235 @@
+{
+  "ok": true,
+  "message": "响应成功",
+  "code": 200,
+  "dataMap": {
+    "totalScore": "4.33",
+    "couponList": "这是优惠券啊",
+    "dataDetail": {
+      "id": 12,
+      "shopNumber": "73470d253d9c11e6ae6584ad58825d59",
+      "marketId": 2,
+      "marketIdUuid": 146,
+      "marketName": "天津红桥商场",
+      "companyId": 3918,
+      "dealerId": 36161,
+      "brandId": 799,
+      "brandName": "冠军",
+      "seriesId": 2163,
+      "seriesName": "冠军",
+      "isDel": 0,
+      "createDate": "2016-06-29 01:54:43",
+      "status": 1,
+      "onlineStatus": 1,
+      "dealStatus": 1,
+      "contactsName": "",
+      "contactsPhone": "",
+      "marketBoothNumber": null,
+      "marketFloor": null,
+      "shopTel": null,
+      "salesStartTime": null,
+      "salesEndTime": null,
+      "shopName": null,
+      "shopIntroduction": null,
+      "supplierInfo": null,
+      "shopOnlineInfo": {
+        "id": 3,
+        "shopId": 12,
+        "shopPic": "http://img4.imgtn.bdimg.com/it/u=1823936836,3779910988&fm=21&gp=0.jpg",
+        "remark": "",
+        "shoppingGuide": "http://img1.hxmklmall.cn/g1/M00/00/0F/rBBuaFfBPU6AHAHbABldMALyrDg667.pdf",
+        "subPhone400": "400-11111111",
+        "createDate": null,
+        "createOperator": null,
+        "updateDate": null,
+        "updateOperator": null
+      },
+      "shopStyleTagList": [
+        {
+          "tagId": 27,
+          "objectId": 12,
+          "objectType": 1,
+          "tagName": "店铺风格卖点1",
+          "orderBy": 100,
+          "deleteStatus": 0,
+          "createDate": null,
+          "createOperator": null,
+          "updateDate": null,
+          "updateOperator": null
+        },
+        {
+          "tagId": 28,
+          "objectId": 12,
+          "objectType": 1,
+          "tagName": "店铺风格卖点2",
+          "orderBy": 99,
+          "deleteStatus": 0,
+          "createDate": null,
+          "createOperator": null,
+          "updateDate": null,
+          "updateOperator": null
+        },
+        {
+          "tagId": 29,
+          "objectId": 12,
+          "objectType": 1,
+          "tagName": "店铺风格卖点3",
+          "orderBy": 98,
+          "deleteStatus": 0,
+          "createDate": null,
+          "createOperator": null,
+          "updateDate": null,
+          "updateOperator": null
+        },
+        {
+          "tagId": 30,
+          "objectId": 12,
+          "objectType": 1,
+          "tagName": "店铺风格卖点4",
+          "orderBy": 97,
+          "deleteStatus": 0,
+          "createDate": null,
+          "createOperator": null,
+          "updateDate": null,
+          "updateOperator": null
+        },
+        {
+          "tagId": 31,
+          "objectId": 12,
+          "objectType": 1,
+          "tagName": "店铺风格卖点5",
+          "orderBy": 96,
+          "deleteStatus": 0,
+          "createDate": null,
+          "createOperator": null,
+          "updateDate": null,
+          "updateOperator": null
+        }
+      ],
+      "shopSpecialServiceTagList": [
+        {
+          "tagId": 24,
+          "objectId": 12,
+          "objectType": 0,
+          "tagName": "店铺特色服务1",
+          "orderBy": 100,
+          "deleteStatus": 0,
+          "createDate": null,
+          "createOperator": null,
+          "updateDate": null,
+          "updateOperator": null
+        },
+        {
+          "tagId": 25,
+          "objectId": 12,
+          "objectType": 0,
+          "tagName": "店铺特色服务2",
+          "orderBy": 99,
+          "deleteStatus": 0,
+          "createDate": null,
+          "createOperator": null,
+          "updateDate": null,
+          "updateOperator": null
+        },
+        {
+          "tagId": 26,
+          "objectId": 12,
+          "objectType": 0,
+          "tagName": "店铺特色服务3",
+          "orderBy": 98,
+          "deleteStatus": 0,
+          "createDate": null,
+          "createOperator": null,
+          "updateDate": null,
+          "updateOperator": null
+        }
+      ]
+    },
+    "page": 1,
+    "reviewList": [
+      {
+        "id": 41,
+        "createDate": "2016-08-22 17:22:01",
+        "objectType": "merchant",
+        "objectId": "12",
+        "objectName": null,
+        "score": 4.33,
+        "userObject": "C",
+        "userId": "open008",
+        "nickName": "1111",
+        "showData": true,
+        "comment": "product",
+        "picture": "https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=504634773,2884940232&fm=58",
+        "likedNumber": 0,
+        "extendColumnOne": null,
+        "extendColumnTwo": null,
+        "extendColumnThree": null,
+        "extendColumnFour": null,
+        "extendColumnFive": null,
+        "auth": false,
+        "redstarReviewDetails": [
+          {
+            "id": 70,
+            "createDate": "2016-08-22 17:22:01",
+            "labelCode": "label_m_env",
+            "score": 5,
+            "reviewId": 41
+          },
+          {
+            "id": 71,
+            "createDate": "2016-08-22 17:22:01",
+            "labelCode": "label_m_product",
+            "score": 4,
+            "reviewId": 41
+          },
+          {
+            "id": 72,
+            "createDate": "2016-08-22 17:22:01",
+            "labelCode": "label_m_service",
+            "score": 4,
+            "reviewId": 41
+          }
+        ],
+        "redstarReviewReplies": [],
+        "userLiked": false
+      }
+    ],
+    "photoAlbum": [
+      {
+        "albumId": 3,
+        "albumType": 1,
+        "shopId": 12,
+        "companyId": 0,
+        "brandId": 0,
+        "seriesId": 0,
+        "albumName": "场景",
+        "picUrl": "http://img2.imgtn.bdimg.com/it/u=3913562047,3282004499&fm=21&gp=0.jpg",
+        "deleteStatus": 0,
+        "createDate": "2016-07-29 11:33:36",
+        "createOperator": "zhangmf",
+        "updateDate": "2016-08-23 19:07:35",
+        "updateOperator": "zhangmf",
+        "imgCount": 31
+      },
+      {
+        "albumId": 20,
+        "albumType": 1,
+        "shopId": 12,
+        "companyId": 0,
+        "brandId": 0,
+        "seriesId": 0,
+        "albumName": "商品",
+        "picUrl": "http://img2.imgtn.bdimg.com/it/u=3913562047,3282004499&fm=21&gp=0.jpg",
+        "deleteStatus": 0,
+        "createDate": "2016-08-10 15:46:34",
+        "createOperator": "zhangmf",
+        "updateDate": "2016-08-23 18:22:47",
+        "updateOperator": "zhangmf",
+        "imgCount": 30
+      }
+    ],
+    "totalElemenets": 1,
+    "isCollect": false,
+    "totalPage": 1
+  }
+}

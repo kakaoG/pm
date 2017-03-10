@@ -1,0 +1,18 @@
+.comments-view {
+  padding: 0 pxToRem(20);
+  .contents {
+    .btn-more {
+      width: 100%;
+      line-height: pxToRem(80);
+      font-size: pxToRem(28);
+      border-bottom: pxToRem(1) solid #E1E1E1;
+      &[disabled] {
+        color: #E1E1E1;
+        background: transparent;
+      }
+    }
+  }
+  .error {
+    display: none;
+  }
+}

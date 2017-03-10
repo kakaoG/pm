@@ -1,0 +1,16 @@
+.product-introduction-view {
+  background-color: #fff;
+  margin-top: pxToRem(16);
+  padding: 0 pxToRem(20) pxToRem(40);
+  .title {
+    line-height: pxToRem(100);
+    font-size: pxToRem(28);
+  }
+  .play{
+    img,video {
+      width: 100%;
+    }
+    video { display: none;}
+  }
+
+}

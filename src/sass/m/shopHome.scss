@@ -1,0 +1,9 @@
+.shop-home {
+  background-color: $home-background-color;
+  .auto-tooltip {
+    display: none;
+  }
+  @import "index/home-common";
+  @import "index/market";
+}
+

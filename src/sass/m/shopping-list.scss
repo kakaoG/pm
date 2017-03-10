@@ -1,0 +1,24 @@
+.shopping-list-view {
+  padding: pxToRem(25) pxToRem(25);
+  .list-view {
+    @import "./shopping-list-item";
+  }
+  .scan-qrcode{
+    @import "./shopping-list-scan-qrcode";
+  }
+  .scan-qrcode-btn {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: pxToRem(92);
+    width: 100%;
+    text-align: center;
+    background: #f5f5f5;
+    button {
+      color:#439df7;
+      height: pxToRem(92);
+      border: none;
+      background: transparent;
+    }
+  }
+}

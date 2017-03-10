@@ -1,0 +1,92 @@
+{
+  "_args": [
+    [
+      {
+        "hosted": {
+          "directUrl": "https://raw.githubusercontent.com/niceue/tpl.js/master/package.json",
+          "gitUrl": "git://github.com/niceue/tpl.js.git",
+          "httpsUrl": "git+https://github.com/niceue/tpl.js.git",
+          "shortcut": "github:niceue/tpl.js",
+          "ssh": "git@github.com:niceue/tpl.js.git",
+          "sshUrl": "git+ssh://git@github.com/niceue/tpl.js.git",
+          "type": "github"
+        },
+        "name": null,
+        "raw": "https://github.com/niceue/tpl.js.git",
+        "rawSpec": "https://github.com/niceue/tpl.js.git",
+        "scope": null,
+        "spec": "git+https://github.com/niceue/tpl.js.git",
+        "type": "hosted"
+      },
+      "/Users/cpf/work/m-web/src/main/webapp/static_m_web"
+    ]
+  ],
+  "_from": "git+https://github.com/niceue/tpl.js.git",
+  "_id": "tpl.js@0.2.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/tpl.js",
+  "_phantomChildren": {},
+  "_requested": {
+    "hosted": {
+      "directUrl": "https://raw.githubusercontent.com/niceue/tpl.js/master/package.json",
+      "gitUrl": "git://github.com/niceue/tpl.js.git",
+      "httpsUrl": "git+https://github.com/niceue/tpl.js.git",
+      "shortcut": "github:niceue/tpl.js",
+      "ssh": "git@github.com:niceue/tpl.js.git",
+      "sshUrl": "git+ssh://git@github.com/niceue/tpl.js.git",
+      "type": "github"
+    },
+    "name": null,
+    "raw": "https://github.com/niceue/tpl.js.git",
+    "rawSpec": "https://github.com/niceue/tpl.js.git",
+    "scope": null,
+    "spec": "git+https://github.com/niceue/tpl.js.git",
+    "type": "hosted"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/niceue/tpl.js.git#f826b6f8bafb93e880ed13b223ae112eaa419083",
+  "_shasum": "b9031387234c1be24581547058e7894014b37f22",
+  "_shrinkwrap": null,
+  "_spec": "https://github.com/niceue/tpl.js.git",
+  "_where": "/Users/cpf/work/m-web/src/main/webapp/static_m_web",
+  "author": {
+    "email": "zj86@live.cn",
+    "name": "Jony Zhang"
+  },
+  "bugs": {
+    "url": "https://github.com/niceue/tpl.js/issues"
+  },
+  "dependencies": {},
+  "description": "Lightweight javascript template engine.",
+  "devDependencies": {
+    "uglify-js": ">= 2.3.0"
+  },
+  "engine": [
+    "node >=0.8.0"
+  ],
+  "gitHead": "f826b6f8bafb93e880ed13b223ae112eaa419083",
+  "homepage": "https://github.com/niceue/tpl.js",
+  "keywords": [
+    "template engine"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/niceue/tpl.js/blob/master/LICENSE.txt"
+    }
+  ],
+  "main": "index",
+  "name": "tpl.js",
+  "optionalDependencies": {},
+  "readme": "## tpl.js\nLightweight javascript template engine. Adaptation AMD, CMD and global environment\n\n[Speed Test](http://jsperf.com/dom-vs-innerhtml-based-templating/780)\n\n\n## Usage\n\n1. Include `tpl.js`:\n``` html\n    <script type=\"text/javascript\" src=\"path/to/tpl.js\"></script>\n```\nOr in sea.js, you can include by: `var tpl = require('path/to/tpl');`\n\n\n2. Template in your html:\n``` html\n    <script type=\"text/template\" id=\"demo\">\n        <p>Hi, I'm <#=author#></p>\n        <p>I can write:\n        <# for(var i=0; i<languages.length; i++) { #>\n        <#=(i===0?\"\":\",\")+languages[i]#>\n        <#}#>\n        </p>\n    </script>\n```\nOr use internal method `echo()`:\n``` html\n    <script type=\"text/template\" id=\"demo\">\n        <p>Hi, I'm <#=author#></p>\n        <p>I can write:\n        <# \n        for(var i=0; i<languages.length; i++) { \n            echo( (i===0?\"\":\", \") + languages[i] );\n        }#>\n        </p>\n    </script>\n```\n    \n\n3. Execution rendering:\n``` js\n    console.log( tpl('#demo', {author: \"Jony\", languages: [\"javascript\", \"php\", \"shell\"]}) );\n```\n\n4. Result is:\n``` html\n<p>Hi, I'm Jony</p>\n<p>I can write: javascript, php, shell</p>\n```\n\n## API\n##### Include another template: `<# include(\"#tpl_id\") #>`\n##### Get HTML: `tpl(template, data)`\n##### Get HTML: `tpl(template)(data)`\n##### Precompiled: `tpl(template)`\n`template` can be a html template string or '#' plus an id, This will return a rendered html string.\n    \n\n## Browser Support\n\n  * IE6+\n  * Chrome\n  * Safari 4+\n  * Firefox 3.5+\n  * Opera\n\n## Bugs / Contributions\n- [Report a bug](https://github.com/niceue/tpl.js/issues)\n- To contribute or send an idea, github message me or fork the project\n\n## Build\ntpl.js use [UglifyJS2](https://github.com/mishoo/UglifyJS) \nyou should have installed [nodejs](nodejs.org) and run `npm install uglify-js -g`.\n\nOn Windows, you can run `build.bat` from root directory and it will package `tpl.debug.js` into `tpl.js`.\n\n  \n## License\n\ntpl.js is available under the terms of the [MIT License](https://github.com/niceue/tpl.js/blob/master/LICENSE.txt).\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niceue/tpl.js.git"
+  },
+  "title": "tpl.js",
+  "version": "0.2.0"
+}

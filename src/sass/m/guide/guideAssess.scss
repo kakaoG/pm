@@ -1,0 +1,23 @@
+.guide-action{
+  .guide-action-view{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 4.44444444rem;
+    text-align: center;
+    line-height: 4.44444444rem;
+    color: #fff;
+    font-size: 1.42222222rem;
+    .action-zx{
+      background-color: #439df7;
+      width:60%;
+      float:left;
+    }
+    .action-yy{
+      background-color: #000;
+      width:40%;
+      float:right;
+    }
+  }
+}

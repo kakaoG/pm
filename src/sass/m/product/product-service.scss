@@ -1,0 +1,33 @@
+.product-service-view {
+  background-color: #fff;
+  margin-top: pxToRem(16);
+  .title-box {
+    display: -webkit-box;
+    -webkit-box-align: center;
+    padding: pxToRem(30) pxToRem(24);
+    font-size: pxToRem(28);
+    line-height: 1;
+    border-bottom: 2px solid #f5f5f5;
+    .box-title { -webkit-box-flex: 1;}
+    i { display: block; transform: rotate(90deg);}
+  }
+  .service-box-main {
+    font-size: 0;
+    padding: pxToRem(20) pxToRem(40);
+    .service-con {
+      display: inline-block;
+      position: relative;
+      width: calc(33.33% - 40px);
+      font-size: pxToRem(28);
+      padding: pxToRem(28) 40px pxToRem(28) 0;
+      .icon {
+        display: inline-block;
+        width: pxToRem(40);
+        height: pxToRem(40);
+        margin-right:pxToRem(5);
+        background-size: 100% 100%;
+        font-size: pxToRem(35);;
+      }
+    }
+  }
+}

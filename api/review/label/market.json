@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "message": "响应成功",
+  "code": 200,
+  "dataMap": {
+    "data": [
+      {
+        "id": 1,
+        "name": "商品",
+        "code": "label_m_product",
+        "objectType": "market",
+        "description": "M站",
+        "createDate": "2016-05-25 13:27:07"
+      },
+      {
+        "id": 2,
+        "name": "环境",
+        "code": "label_m_env",
+        "objectType": "market",
+        "description": "M站",
+        "createDate": "2016-05-25 13:27:35"
+      },
+      {
+        "id": 3,
+        "name": "服务",
+        "code": "label_m_service",
+        "objectType": "market",
+        "description": "M站",
+        "createDate": "2016-07-08 16:45:57"
+      }
+    ]
+  }
+}

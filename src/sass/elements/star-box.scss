@@ -1,0 +1,48 @@
+.star-box {
+  .bright {
+    color: #FD9C48;
+  }
+  .dark {
+    color: #e1e1e1;
+  }
+  position: relative;
+  .stars {
+    text-align: center;
+
+    .star {
+      /*float: left;*/
+      position: relative;
+      display: inline-block;
+      line-height: pxToRem(23);
+    }
+  }
+  .stars .half {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    overflow: hidden;
+  }
+  .stars .half .bright {
+    position: relative;
+  }
+  .stars .bright {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .bright {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .iconfont,
+  .score {
+    font-size: pxToRem(24);
+  }
+  .score {
+    margin-left: 1rem;
+    float: left;
+    color: #FB6A29;
+  }
+}

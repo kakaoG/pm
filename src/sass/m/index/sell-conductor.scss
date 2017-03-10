@@ -1,0 +1,33 @@
+.sell-conductor {
+  .sell-conductor-view {
+    margin: 0 pxToRem(16);
+    height: pxToRem(130);
+    background: url(../../../../img/m/index/dianping_banner.jpg) no-repeat;
+    background-size: cover;
+    .info {
+      margin-left: 55%;
+      display: flex;
+      align-items: center;
+      img {
+        width: pxToRem(120);
+        height: pxToRem(120);
+        border: pxToRem(5) solid rgba(255,255,255,.7);
+        border-radius: 50%;
+      }
+      .detail {
+        display: inline-block;
+        vertical-align: top;
+        color: #333;
+        line-height: 1.5;
+        margin-left: pxToRem(20);
+        h4 {
+          font-size: pxToRem(30);
+        }
+        p {
+          text-align: center;
+          font-size: pxToRem(26);
+        }
+      }
+    }
+  }
+}

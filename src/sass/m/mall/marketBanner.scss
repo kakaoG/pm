@@ -1,0 +1,11 @@
+.market-banner {
+  background-color: #fff;
+  .carousel-inner {
+    .item {
+      font-size: 0;
+      img {
+        height: pxToRem(330);
+      }
+    }
+  }
+}

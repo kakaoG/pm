@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "message": "响应成功",
+  "code": 200,
+  "dataMap": {
+    "data": [
+      {
+        "id": 36,
+        "createDate": "2016-08-22 14:51:19",
+        "objectType": "merchant",
+        "objectId": "1",
+        "objectName": null,
+        "score": 3.35,
+        "userObject": "C",
+        "userId": "1",
+        "nickName": "187****6065",
+        "showData": true,
+        "comment": "测试",
+        "picture": null,
+        "likedNumber": 0,
+        "extendColumnOne": "http://www.baidu.com",
+        "extendColumnTwo": null,
+        "extendColumnThree": null,
+        "extendColumnFour": null,
+        "extendColumnFive": null,
+        "auth": false,
+        "redstarReviewDetails": [],
+        "redstarReviewReplies": [],
+        "userLiked": false
+      }
+    ]
+  }
+}

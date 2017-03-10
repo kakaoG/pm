@@ -1,0 +1,7 @@
+.unique-experience {
+  background-color: #fff;
+  @import "slide-view-wrapper";
+  .item img {
+    height: pxToRem(320);
+  }
+}

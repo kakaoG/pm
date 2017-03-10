@@ -1,0 +1,56 @@
+.product-base-info-view {
+  background-color: #fff;
+  padding: pxToRem(40) pxToRem(20);
+  .goods-name {font-size: pxToRem(32);}
+  .price-box {
+    display: -webkit-box;
+    -webkit-box-align: end;
+    margin-top: pxToRem(20);
+    font-size: pxToRem(24);
+    color:#999999;
+    .price-box-l {
+      -webkit-box-flex: 1;
+      span { font-size: pxToRem(32); color: #666;}
+      @mixin account-tag($w,$h,$pw,$ph,$fs){
+        .account-tag {
+          display: inline-block;
+          font-size: 0;
+          height: $h;
+          vertical-align: bottom;
+          overflow-y: hidden;
+          span { display: inline-block; vertical-align: text-top; float: left;}
+          .tag-left {
+            width: 0;
+            height: 0;
+            border-top: ($h+2)/2 solid transparent;
+            border-right: $h/2 solid #439df7;
+            border-bottom: ($h+2)/2 solid transparent;
+            position: relative;
+            margin-top:-1px;
+            .tag-point {
+              position: absolute;
+              left: 50%;
+              margin-left: $pw;
+              top: -$pw/2;
+              width: $pw;
+              height: $pw;
+              background: #fff;
+              border-radius: 50%;
+            }
+          }
+          .tag-main {
+            background: #439df7;
+            line-height: $h;
+            width: $w;
+            text-align: center;
+            color: #fff!important;
+            font-size: $fs;
+            margin-left:-1px;
+          }
+
+        }
+      };
+      @include account-tag(80px,30px,6px,6px,18px)
+    }
+  }
+}

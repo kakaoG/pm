@@ -1,0 +1,18 @@
+.list-wrapper {
+  background-color: #fff;
+  margin-top: pxToRem(16);
+  @import "./header";
+  a.more {
+    display: block;
+    margin-left: pxToRem(16);
+    padding: pxToRem(30) 0;
+    color: #439df7;
+    text-align: center;
+    text-indent: pxToRem(-16);;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+  }
+  .comment-item ul .content {
+    -webkit-line-clamp: 2;
+  }
+}

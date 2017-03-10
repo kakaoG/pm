@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "message": "响应成功",
+  "code": 200,
+  "dataMap": {
+    "photoAlbum": [
+      {
+        "albumId": 10,
+        "albumType": 1,
+        "shopId": 1,
+        "companyId": 0,
+        "brandId": 0,
+        "seriesId": 0,
+        "albumName": "default name 0",
+        "picUrl": "",
+        "deleteStatus": 0,
+        "createDate": "2016-07-29 13:50:24",
+        "createOperator": "",
+        "updateDate": "2016-07-29 13:50:31",
+        "updateOperator": "",
+        "imgCount": 0
+      },
+      {
+        "albumId": 11,
+        "albumType": 1,
+        "shopId": 1,
+        "companyId": 0,
+        "brandId": 0,
+        "seriesId": 0,
+        "albumName": "default name 1",
+        "picUrl": "",
+        "deleteStatus": 0,
+        "createDate": "2016-07-29 13:50:24",
+        "createOperator": "",
+        "updateDate": "2016-07-29 13:50:31",
+        "updateOperator": "",
+        "imgCount": 0
+      }
+    ],
+    "photoAlbumDetail": []
+  }
+}

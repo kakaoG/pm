@@ -1,0 +1,47 @@
+.slide-container-regist-item {
+  border-radius: $border-radius-slide-container$baseColor ;
+  background: #ffffff;
+  padding: pxToRem(32) 0;
+  max-height: pxToRem(700);
+  width: 100%;
+  overflow-y: hidden;
+  .title {
+    font-size: $slide-title-font-size;
+    text-align: center;
+  }
+  .content {
+    margin-top: pxToRem(32);
+    .comment {
+      font-size: pxToRem(24);
+      color: #999;
+    }
+    .form-item {
+      margin-top: pxToRem(32);
+    }
+    .tel input {
+      text-indent: pxToRem(24);
+    }
+    .button {
+      margin-top: pxToRem(32);
+      button {
+        width: 100%;
+        color: #fff;
+        background-color: #439df7;
+        border-radius: $border-radius-slide-container$baseColor ;
+        font-size: pxToRem(32);
+        padding: pxToRem(24) 0;
+      }
+    }
+    padding: 0 pxToRem(30);
+  }
+  .btn-close {
+    position: absolute;
+    bottom: pxToRem(-60);
+    left: 50%;
+    transform: translateX(-50%);
+    .icon-close {
+      font-size: pxToRem(40);
+      color: #ffffff;
+    }
+  }
+}

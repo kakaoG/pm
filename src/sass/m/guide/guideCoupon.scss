@@ -1,0 +1,22 @@
+.guide-coupon {
+    .fl { float: left;}
+    .fr { float: right;}
+    background:#fff;
+	margin-top: pxToRem(10);
+	.coupon {
+		padding:pxToRem(40);
+		.coupon-icon {
+			padding: pxToRem(10);
+   			text-align: center;
+   			border-radius: pxToRem(10);
+    		background-color: #439df7;
+    		color: #fff;
+    		margin-right: pxToRem(24);
+		}
+		.coupon-text {
+			color: #999;
+			font-size: pxToRem(24);
+			padding-top:pxToRem(10);
+		}
+	}
+}
